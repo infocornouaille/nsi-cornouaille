@@ -44,4 +44,4 @@ nav:
   - Home: index.md
   - Première NSI:
     - Types construits:
-      - Les listes: listes.md
+      - Les listes: premiere/types_construits/listes.md
