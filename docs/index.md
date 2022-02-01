@@ -2,7 +2,7 @@
 
 Ce site contient des ressources pour la spécialité Numérique et Sciences Informatiques.
 
-## Liens vers les cours
+## Contenu du site
 
 * Cours de Première NSI
 * Cours de Terminale NSI
