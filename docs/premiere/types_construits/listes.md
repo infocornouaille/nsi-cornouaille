@@ -12,7 +12,6 @@
      Le tableau est modifiable par affectation, on dit qu'il est **mutable**
 
 
-
 ## Bases sur les listes
 
 !!! tip "Création d'une liste"
@@ -271,25 +270,23 @@
           [5, 2]]
      ```
 
-     Prenons comme exemple un jeu de morpion:
+!!! example "Exemple du jeu de morpion"
+   
 
-     | X   |     | O   |
-     | --- | --- | --- |
-     | X   |     |     |
-     |     |     |     |
+     ![Morpion](../img/tictactoe.PNG)
 
      On peut représenter ce tableau par une liste de listes:
 
      ```python
-     morpion = [['X', ' ', 'O'], ['X', ' ', ' '], [' ', ' ', ' ']]
+     morpion = [['X', ' ', ' '], ['X', ' ', ' '], ['O', 'O', ' ']]
      ```
 
      Bien sûr on peut mettre sur plusieurs lignes:
 
      ```python
-     morpion = [['X', ' ', 'O'],
+     morpion = [['X', ' ', ' '],
                ['X', ' ', ' '],
-               [' ', ' ', ' ']]
+               ['O', 'O', ' ']]
      ```
 
 !!! tip "Convention sur les lignes et les colonnes"
@@ -298,20 +295,20 @@
 !!! example "Exemples d'accès aux éléments des matrices"
 
      ```python
-     morpion[i][j] # ligne i, colonne j, en partant de zéro
+     morpion[i][j] # ligne d'indice i, colonne d'indice j
      morpion[0][0] # ligne 1, colonne 1
      morpion[0][0] # 'X'
-     morpion[2][1] # ' '
-     morpion[0][2] # 'O'
+     morpion[2][1] # 'O'
+     morpion[1][2] # ' '
      ```
 
-     On suppose que le joueur 'O' veuille empêcher le joueur 'X' de gagner:
+     On suppose que le joueur 'X' veuille empêcher le joueur 'O' de gagner:
 
      ```python
-     morpion[2][0] = 'O'
-     # morpion = [['X', ' ', 'O'],
+     morpion[2][2] = 'X'
+     # morpion = [['X', ' ', ' '],
      #           ['X', ' ', ' '],
-     #           ['O', ' ', ' ']]
+     #           ['O', '0', 'X']]
      ```
 
 !!! tip "Matrices en compréhension"
