@@ -46,3 +46,6 @@ nav:
   - Première NSI:
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
+    - Algorithmique:
+      - Introduction: premiere/algorithmique/introduction.md
+      - Parcours séquentiels: premiere/algorithmique/parcours.md
