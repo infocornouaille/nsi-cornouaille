@@ -27,6 +27,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -41,7 +42,7 @@ extra_javascript:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Accueil: index.md
   - Première NSI:
     - Types construits:
-      - Les liste: listes.md
+      - Les listes: premiere/types_construits/listes.md
