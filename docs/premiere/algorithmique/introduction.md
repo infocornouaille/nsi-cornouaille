@@ -57,7 +57,7 @@
 
     Le temps de calcul sera alors maximal.
 
-    La notation $O$ consiste à majorer, par une fonction de référence, le nombre d'opération nécessaires à son déroulement, pour $n$ suffisamment grand.
+    La notation $O$ consiste à majorer, par une fonction de référence, le nombre d'opérations nécessaires à son déroulement, pour $n$ suffisamment grand.
 
 !!! tip "Quelques types de complexités"
 
