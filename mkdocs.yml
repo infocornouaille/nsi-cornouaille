@@ -49,3 +49,6 @@ nav:
     - Algorithmique:
       - Introduction: premiere/algorithmique/introduction.md
       - Parcours séquentiels: premiere/algorithmique/parcours.md
+  - Terminale NSI:
+    - Sujets pratiques:
+      - Sujet 11: terminales/sujets_pratiques/sujet11.md
