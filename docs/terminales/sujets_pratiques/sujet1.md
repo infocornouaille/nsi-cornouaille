@@ -16,6 +16,20 @@ Exemples :
 0
 ```
 
+??? note "Correction"
+
+       ```python
+       def recherche(caractere, mot):
+              occurence = 0
+              for elem in mot:
+                     if elem == caractere:
+                     occurence += 1
+              return occurence
+              
+       assert recherche('e', "sciences") == 2
+       assert recherche('i', "mississippi") == 4
+       assert recherche('a', "mississippi") == 0
+       ```
 ## Exercice 2
 
 On s’intéresse à un algorithme récursif qui permet de rendre la monnaie 
@@ -38,4 +52,23 @@ def rendu_glouton(arendre, solution=[], i=0):
     else :
         return rendu_glouton(arendre, solution, ...)
 ```
+
+??? note "Correction"
+
+       ```python
+       Pieces = [100, 50, 20, 10, 5, 2, 1]
+
+       def rendu_glouton(arendre, solution=[], i=0):
+              if arendre == 0:
+                     return solution
+              p = Pieces[i]
+              if p <= arendre:
+                     solution.append(p)
+                     return rendu_glouton(arendre - p, solution, i)
+              else:
+                     return rendu_glouton(arendre, solution, i+1)
+
+       assert rendu_glouton(68, [], 0) == [50, 10, 5, 2, 1]
+       assert rendu_glouton(291, [], 0) == [100, 100, 50, 20, 20, 1]
+       ```
 
