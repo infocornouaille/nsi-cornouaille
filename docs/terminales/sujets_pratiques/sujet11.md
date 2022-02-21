@@ -7,9 +7,35 @@
 
 Cette fonction doit renvoyer un indice correspondant au nombre cherché s’il est dans le tableau, $-1$ sinon.
 
+Exemples:
+
+```python
+>>> recherche([2, 3, 4, 5, 6], 5)
+3
+>>> recherche([2, 3, 4, 6, 7], 5)
+-1
+```
+
 ??? note "Correction"
 
-    Correction à venir...
+    ```python
+    def recherche(tab, n):
+    debut = 0
+    fin = len(tab) - 1
+    while debut < fin:
+        milieu = (debut + fin) // 2
+        valeur_centrale = tab[milieu]
+        if valeur_centrale == n:
+            return milieu
+        elif valeur_centrale >n:
+            fin = milieu - 1
+        else:
+            debut = milieu + 1
+    return -1
+
+    assert recherche([2, 3, 4, 5, 6], 5) == 3
+    assert recherche([2, 3, 4, 6, 7], 5) == -1
+    ```
 
 
 
