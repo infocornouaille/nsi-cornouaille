@@ -7,6 +7,11 @@
 
 Cette fonction doit renvoyer un indice correspondant au nombre cherché s’il est dans le tableau, $-1$ sinon.
 
+??? note "Correction"
+
+    Correction à venir...
+
+
 
 ## Exercice 2
 
