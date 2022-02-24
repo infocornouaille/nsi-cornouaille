@@ -253,11 +253,31 @@
      Un tableau à double entrée, appelé **matrice**, peut être représenté par une liste de listes.
 
 
+
 !!! example "Exemples de matrices"
 
-     | 7   | 9   |
-     | --- | --- |
-     | 5   | 2   |
+     <style type="text/css">
+     .tg  {border-collapse:collapse;border-spacing:0;}
+     .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;
+     overflow:hidden;padding:10px 5px;word-break:normal;}
+     .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;
+     font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+     .tg .tg-0lax{text-align:left;vertical-align:top}
+     </style>
+     <table class="tg">
+     <thead>
+     <tr>
+     <th class="tg-0lax">7</th>
+     <th class="tg-0lax">9</th>
+     </tr>
+     </thead>
+     <tbody>
+     <tr>
+     <td class="tg-0lax">5</td>
+     <td class="tg-0lax">2</td>
+     </tr>
+     </tbody>
+     </table>
 
      ```python
      L = [[7, 9], [5, 2]]
@@ -308,7 +328,7 @@
      morpion[2][2] = 'X'
      # morpion = [['X', ' ', ' '],
      #           ['X', ' ', ' '],
-     #           ['O', '0', 'X']]
+     #           ['O', 'O', 'X']]
      ```
 
 !!! tip "Matrices en compréhension"
