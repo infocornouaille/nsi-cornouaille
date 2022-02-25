@@ -55,6 +55,12 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+  
+extra:
+  analytics:
+    provider: google
+    property: G-NW109M0CP2
+
 
 # Page tree
 nav:
