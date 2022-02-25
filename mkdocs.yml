@@ -5,7 +5,7 @@ edit_uri: edit/main/docs/
 plugins:
   - git-revision-date
   - search
-  - privacy
+
 
 theme:
   name: material
