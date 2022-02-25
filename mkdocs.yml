@@ -5,6 +5,7 @@ edit_uri: edit/main/docs/
 plugins:
   - git-revision-date
   - search
+  - social
 
 
 theme:
