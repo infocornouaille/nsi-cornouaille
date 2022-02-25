@@ -17,4 +17,5 @@ jobs:
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
       - run: pip install mkdocs-material
       - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-social-plugin
       - run: mkdocs gh-deploy --force
