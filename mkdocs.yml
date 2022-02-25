@@ -1,4 +1,8 @@
 site_name: NSI
+repo_url: https://github.com/infocornouaille/nsi-cornouaille
+plugins:
+  - git-revision-date
+
 theme:
   name: material
   features:
