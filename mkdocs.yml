@@ -1,6 +1,16 @@
 site_name: NSI
+site_url: https://infocornouaille.github.io/nsi-cornouaille
+repo_url: https://github.com/infocornouaille/nsi-cornouaille
+edit_uri: edit/main/docs/
+plugins:
+  - git-revision-date
+  - search
+
+
+
 theme:
   name: material
+  language: fr
   features:
     - content.code.annotate
     # - content.tabs.link
@@ -45,6 +55,12 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+  
+extra:
+  analytics:
+    provider: google
+    property: G-NW109M0CP2
+
 
 # Page tree
 nav:
