@@ -76,6 +76,6 @@ nav:
     - Introduction: terminales/index.md
     - Sujets pratiques:
       - Sujet 1: terminales/sujets_pratiques/sujet1.md
-      - Sujet 4: "Exercices Pratiques Term NSI - Sujet_4.ipynb"
+      
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
