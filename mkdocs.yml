@@ -3,8 +3,6 @@ site_url: https://infocornouaille.github.io/nsi-cornouaille
 repo_url: https://github.com/infocornouaille/nsi-cornouaille
 edit_uri: edit/main/docs/
 plugins:
-  - mkdocs-jupyter:
-      include_source: True
   - git-revision-date
   - search
 
@@ -78,5 +76,4 @@ nav:
     - Sujets pratiques:
       - Sujet 1: terminales/sujets_pratiques/sujet1.md      
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
-      - Sujet 16: terminales/sujets_pratiques/Sujet_16.ipynb
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
