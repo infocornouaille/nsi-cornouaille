@@ -3,7 +3,8 @@ site_url: https://infocornouaille.github.io/nsi-cornouaille
 repo_url: https://github.com/infocornouaille/nsi-cornouaille
 edit_uri: edit/main/docs/
 plugins:
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      include_source: True
   - git-revision-date
   - search
 
