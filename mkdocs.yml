@@ -76,7 +76,7 @@ nav:
   - Terminale NSI:
     - Introduction: terminales/index.md
     - Sujets pratiques:
-      - Sujet 1: terminales/sujets_pratiques/sujet1.md
-      - Sujet 16: terminales/sujets_pratiques/Sujet_16.ipynb      
+      - Sujet 1: terminales/sujets_pratiques/sujet1.md      
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
+      - Sujet 16: terminales/sujets_pratiques/Sujet_16.ipynb
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
