@@ -10,6 +10,7 @@ plugins:
 
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   features:
     - content.code.annotate
