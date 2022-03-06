@@ -1,3 +1,8 @@
+---
+title: Sujet NSI 2022 - Sujet 1
+description: Sujet 1 épreuve pratique NSI 2022
+---
+
 # Sujet NSI 2022 - Sujet 1
 
 ## Exercice 1
