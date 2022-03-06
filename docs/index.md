@@ -4,6 +4,5 @@ Ce site contient des ressources pour la spécialité Numérique et Sciences Info
 
 ## Contenu du site
 
-* Cours de Première NSI
-* Cours de Terminale NSI
-
+* [Cours de Première NSI](premiere/index.md)
+* [Cours de Terminale NSI](terminales/index.md)

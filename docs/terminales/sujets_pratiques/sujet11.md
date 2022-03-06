@@ -1,6 +1,5 @@
 # Sujet 11
 
-
 ## Exercice 1
 
 Écrire une fonction `recherche` qui prend en paramètres un tableau `tab` de nombres entiers triés par ordre croissant et un nombre entier `n`, et qui effectue une recherche dichotomique du nombre entier `n` dans le tableau non vide `tab`.
@@ -36,8 +35,6 @@ Exemples:
     assert recherche([2, 3, 4, 5, 6], 5) == 3
     assert recherche([2, 3, 4, 6, 7], 5) == -1
     ```
-
-
 
 ## Exercice 2
 
@@ -98,4 +95,3 @@ Exemples :
     assert cesar('BONJOUR A TOUS. VIVE LA MATIERE NSI !',4) == 'FSRNSYV E XSYW. ZMZI PE QEXMIVI RWM !'
     assert cesar('GTSOTZW F YTZX. ANAJ QF RFYNJWJ SXN !',-5) == 'BONJOUR A TOUS. VIVE LA MATIERE NSI !'
     ```
-
