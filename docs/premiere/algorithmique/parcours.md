@@ -6,8 +6,6 @@
 
     On suppose que les éléments du tableau sont des nombres.
 
-
-
 ## Comptage d'une occurence
 
 !!! tip "Parcours total"
@@ -33,14 +31,12 @@ def compte_occurences(tab, b):
 ```
 
 !!! tip "Complexité du parcours total"
-    
+
     Le tableau est parcouru dans sa totalité dans tous les cas.
 
     Le nombre d'étapes est donc proportionnel à la taille du tableau.
 
     On a une **complexité linéraire**: $O(n)$.
-
-
 
 ## Recherche d'une occurence
 
@@ -48,7 +44,6 @@ def compte_occurences(tab, b):
     Le **parcours partiel** est par exemple mis en oeuvre lors d'une **recherche d'occurence**.
 
     La boucle **"tant que"** est alors à privilégier.
-
 
 On cherche si le tableau `tab`contient un élément noté `b`.
 
@@ -82,8 +77,6 @@ def recherche_occurence(tab, b):
     * Dans le **pire des cas**, l'élément cherché est absent de la structure de données et le parcours sera total.
 
     On a donc une **complexité linéraire**: $O(n)$.
-
-
 
 ## Recherche d'un maximum ou d'un minimum
 

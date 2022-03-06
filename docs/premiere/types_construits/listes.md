@@ -5,18 +5,15 @@
 !!! tip "Définition"
      **Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
 
-
 !!! info
      En Python, un **tableau** est appelé **liste**. Il est de type `list`
 
      Le tableau est modifiable par affectation, on dit qu'il est **mutable**
 
-
 ## Bases sur les listes
 
 !!! tip "Création d'une liste"
      Dans une liste, tous les termes doivent être séparés par des virgules et entourés de **crochets**
-
 
 !!! example "Exemple"
 
@@ -27,14 +24,12 @@
 !!! info
      Une **liste** peut aussi contenir des éléments de types différents
 
-
      ```python
      lst = [4, "bonjour", False, [7, 9]]
      ```
 
 !!! tip "liste vide"
      La liste vide est notée `[]`
-
 
      ```python
      lst = [] # liste vide
@@ -44,7 +39,6 @@
 
 !!! tip "Accéder aux éléments d'une liste"
      On accède à un élément d'une liste en mettant entre crochets l'indice de l'élémént (qui commence à **zéro**).
-
 
 !!! example "Exemple"
 
@@ -105,7 +99,6 @@
 !!! tip "Longueur d'une liste"
      La longueur d'une liste sera donnée par la fonction `len()`
 
-
 !!! example "Exemple"
 
      ```python
@@ -118,7 +111,6 @@
 
 !!! tip "Tester l'appartenance d'un élément dans une liste"
      On peut tester si un élément appartient à une liste avec `in`
-
 
 !!! example "Example de test d'appartenance"
 
@@ -141,7 +133,7 @@
      >>> felins.append('lions')
      >>> print(felins)
      ['chats', 'tigres', 'léopards', 'lions']
-     ```
+```
 
 !!! tip "La concaténation"
      Avec l'opérateur `+`, on peut **concaténer** deux listes, c'est-à-dire créer une nouvelle liste formée avec deux listes.
@@ -153,7 +145,7 @@
      >>> lst3 = lst1 + lst2
      >>> print(lst3)
       [3, 5, 7, 12, 15, 9]
-     ```
+```
 
 !!! tip "Multiplication par un entier"
      On peut utiliser la multiplication par un entier `int` pour dupliquer une liste.
@@ -166,7 +158,7 @@
      >>> lst2 = ['t', 'u']*3
      >>> print(lst2)
      ['t', 'u', 't', 'u', 't', 'u']
-     ```
+```
 
 ## Le _slicing_
 
@@ -176,7 +168,6 @@
      Soit `lst` une liste
 
      La syntaxe `lst[i:j]` permet d'extraire de la liste tous les éléments consécutifs compris entre l'élément de rang `i` **inclus** et l'élément de rang `j` **exclus**.
-
 
 !!! example "Exemples de slicing"
 
@@ -213,12 +204,10 @@
      []
      ```
 
-
 ## Liste en compréhension
 
 !!! info
      Il est possible et élégant de construire une liste en compréhension avec le langage Python. C'est très pratique pour créer, transformer ou filtrer une liste.
-
 
 !!! example "Exemples de listes en compréhension"
 
@@ -251,8 +240,6 @@
 
 !!! tip "Création d'une liste de listes"
      Un tableau à double entrée, appelé **matrice**, peut être représenté par une liste de listes.
-
-
 
 !!! example "Exemples de matrices"
 
@@ -291,7 +278,6 @@
      ```
 
 !!! example "Exemple du jeu de morpion"
-   
 
      ![Morpion](../img/tictactoe.PNG)
 
@@ -333,7 +319,6 @@
 
 !!! tip "Matrices en compréhension"
      On peut générer des matrices en compréhension
-
 
 !!! example "Exemple de matrice en compréhension"
 

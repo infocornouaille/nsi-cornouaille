@@ -66,8 +66,11 @@ extra:
 nav:
   - Accueil: index.md
   - Première NSI:
+    - Accueil: premiere/index.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
+      - Les tuple: premiere/types_construits/tuple.md
+      - Les dictionnaires: premiere/types_construits/dictionnaires.md
     - Algorithmique:
       - Introduction: premiere/algorithmique/introduction.md
       - Parcours séquentiels: premiere/algorithmique/parcours.md
