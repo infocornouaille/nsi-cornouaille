@@ -2,9 +2,16 @@
 
 {% block extrahead %}
 {% set title = config.site_name %}
+
+{% if page and page.meta and page.meta.image%}
+<meta name="twitter:card" content="summary_large_image" />
+{% else%}
+<meta name="twitter:card" content="summary" />
+{% endif %}
+
 {% if page and page.meta and page.meta.title %}
 {% set title = title ~ " - " ~ page.meta.title %}
-<meta name="twitter:card" content="summary_large_image" />
+
 
 <meta name="twitter:title" content="{{ title }}" />
 <meta name="twitter:description" content="{{ page.meta.description }}" />
@@ -17,5 +24,10 @@
 {% elif page and page.title and not page.is_homepage %}
 {% set title = title ~ " - " ~ page.title | striptags %}
 {% endif %}
+
+
+
+
+
 
 {% endblock %}
