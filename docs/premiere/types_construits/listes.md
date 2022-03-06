@@ -128,29 +128,32 @@
      Les listes Python ont la particularité de pouvoir être allongées d'un élément en fin de liste, grâce à la méthode `append()`
 
 !!! example "Example d'utilisation de la méthode append()"
+
      ```python
      >>> felins = ['chats', 'tigres', 'léopards']
      >>> felins.append('lions')
      >>> print(felins)
      ['chats', 'tigres', 'léopards', 'lions']
-```
+     ```
 
 !!! tip "La concaténation"
      Avec l'opérateur `+`, on peut **concaténer** deux listes, c'est-à-dire créer une nouvelle liste formée avec deux listes.
 
 !!! example "Exemple de concaténation"
+
      ```python
      >>> lst1 = [3, 5, 7]
      >>> lst2 = [12, 15, 9]
      >>> lst3 = lst1 + lst2
      >>> print(lst3)
       [3, 5, 7, 12, 15, 9]
-```
+     ```
 
 !!! tip "Multiplication par un entier"
      On peut utiliser la multiplication par un entier `int` pour dupliquer une liste.
 
 !!! example "Exemple de multiplication par un entier"
+
      ```python
      >>> lst1 = [0]*5
      >>> print(lst1)
@@ -158,7 +161,7 @@
      >>> lst2 = ['t', 'u']*3
      >>> print(lst2)
      ['t', 'u', 't', 'u', 't', 'u']
-```
+     ```
 
 ## Le _slicing_
 
