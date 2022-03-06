@@ -1,3 +1,8 @@
+---
+title: Sujet NSI 2022 - Sujet 23
+description: Sujet 23 épreuve pratique NSI 2022
+---
+
 # Sujet NSI 2022 - 23
 
 ## Exercice 1 (4 points)
