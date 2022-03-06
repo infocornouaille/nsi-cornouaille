@@ -1,7 +1,9 @@
 site_name: NSI
-site_url: https://infocornouaille.github.io/nsi-cornouaille
-repo_url: https://github.com/infocornouaille/nsi-cornouaille
+site_url: https://infocornouaille.github.io/nsi-cornouaille/
+repo_url: https://github.com/infocornouaille/nsi-cornouaille/
 edit_uri: edit/main/docs/
+site_description: Spécialité Numérique et Sciences Informatiques en Première et Terminale
+site_author: David Couronné
 plugins:
   - git-revision-date
   - search
