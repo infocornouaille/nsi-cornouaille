@@ -1,4 +1,4 @@
-# Sujet 1
+# Sujet NSI 2022 - Sujet 1
 
 ## Exercice 1
 
