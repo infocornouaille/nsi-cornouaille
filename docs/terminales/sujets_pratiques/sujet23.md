@@ -2,20 +2,21 @@
 
 ## Exercice 1 (4 points)
 
-Sur le réseau social TipTop, on s’intéresse au nombre de « like » des abonnés. Les données sont stockées dans des dictionnaires où les clés sont les pseudos et les valeurs correspondantes sont les nombres de « like » comme ci-dessous 
-:
+Sur le réseau social TipTop, on s’intéresse au nombre de « like » des abonnés. Les données sont stockées dans des dictionnaires où les clés sont les pseudos et les valeurs correspondantes sont les nombres de « like » comme ci-dessous :
+
 ```py
 {'Bob': 102, 'Ada': 201, 'Alice': 103, 'Tim': 50}
 ```
 
-Écrire une fonction max_dico qui :
+Écrire une fonction `max_dico` qui :
 
-- Prend en paramètre un dictionnaire dico non vide dont les clés sont des chaînes de caractères et les valeurs associées sont des entiers ;
+- Prend en paramètre un dictionnaire `dico` non vide dont les clés sont des chaînes de caractères et les valeurs associées sont des entiers ;
 - Renvoie un tuple dont :
-    - La première valeur est la clé du dictionnaire associée à la valeur maximale 
-    - La seconde valeur est la première valeur maximale présente dans le dictionnaire.
+  - La première valeur est la clé du dictionnaire associée à la valeur maximale
+  - La seconde valeur est la première valeur maximale présente dans le dictionnaire.
 
 Exemples :
+
 ```py
 >>> max_dico({'Bob': 102, 'Ada': 201, 'Alice': 103, 'Tim': 50}) ('Ada', 201)
 >>> max_dico({'Alan': 222, 'Ada': 201, 'Eve': 220, 'Tim': 50})
@@ -40,11 +41,11 @@ D’une manière plus générale, la valeur associée à une expression arithmé
 
 Dans le cadre de cet exercice, on se limitera aux opérations × et +.
 
-Pour cet exercice, on dispose d’une classe Pile qui implémente les méthodes de base sur la structure de pile.
+Pour cet exercice, on dispose d’une classe `Pile` qui implémente les méthodes de base sur la structure de pile.
 
-
-Compléter le script de la fonction eval_expression qui reçoit en paramètre une liste python représentant la notation postfixe d’une expression arithmétique et qui renvoie sa valeur associée.
+Compléter le script de la fonction `eval_expression` qui reçoit en paramètre une liste python représentant la notation postfixe d’une expression arithmétique et qui renvoie sa valeur associée.
 Exemple :
+
 ```py
 >>> eval_expression([2, 3, '+', 5, '*'])
 25
