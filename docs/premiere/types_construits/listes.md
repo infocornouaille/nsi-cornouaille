@@ -1,6 +1,11 @@
-# Les listes
+---
+title: Listes en Python
+description: Cours de spécialité NSI sur les listes en Python
+---
 
-## Définition
+# Listes en Python
+
+## Définition des listes en Python
 
 !!! tip "Définition"
      **Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
@@ -10,7 +15,7 @@
 
      Le tableau est modifiable par affectation, on dit qu'il est **mutable**
 
-## Bases sur les listes
+## Bases sur les listes en Python
 
 !!! tip "Création d'une liste"
      Dans une liste, tous les termes doivent être séparés par des virgules et entourés de **crochets**
@@ -35,7 +40,7 @@
      lst = [] # liste vide
      ```
 
-## Accès aux éléments d'une liste
+## Accès aux éléments d'une liste en Python
 
 !!! tip "Accéder aux éléments d'une liste"
      On accède à un élément d'une liste en mettant entre crochets l'indice de l'élémént (qui commence à **zéro**).
@@ -78,7 +83,7 @@
      'Lisa'
      ```
 
-## Modification d'une liste par affectation
+## Modification d'une liste par affectation en Python
 
 !!! tip "Modification d'une liste"
      Les termes d'une listes peuvent être modifiés par affectation au cours d'un programme.
@@ -94,7 +99,7 @@
      ['renards', 'toucans', 'zèbres']
      ```
 
-## Longueur d'une liste
+## Longueur d'une liste en Python
 
 !!! tip "Longueur d'une liste"
      La longueur d'une liste sera donnée par la fonction `len()`
@@ -107,7 +112,7 @@
      4
      ```
 
-## Test d'appartenance avec `in`
+## Test d'appartenance avec `in` en Python
 
 !!! tip "Tester l'appartenance d'un élément dans une liste"
      On peut tester si un élément appartient à une liste avec `in`
@@ -122,7 +127,7 @@
      False
      ```
 
-## Opération sur les listes
+## Opération sur les listes en Python
 
 !!! tip "La méthode append()"
      Les listes Python ont la particularité de pouvoir être allongées d'un élément en fin de liste, grâce à la méthode `append()`
@@ -163,7 +168,7 @@
      ['t', 'u', 't', 'u', 't', 'u']
      ```
 
-## Le _slicing_
+## Le _slicing_ en Python
 
 !!! tip "Le _slicing_"
      Le découpage de liste (appelé _slicing_) permet d'extraire un séquence d'une liste.
@@ -207,7 +212,7 @@
      []
      ```
 
-## Liste en compréhension
+## Liste en compréhension en Python
 
 !!! info
      Il est possible et élégant de construire une liste en compréhension avec le langage Python. C'est très pratique pour créer, transformer ou filtrer une liste.
@@ -239,7 +244,7 @@
      [0, 9, 36, 81]
      ```
 
-## Matrices: les listes de listes
+## Matrices: les listes de listes en Python
 
 !!! tip "Création d'une liste de listes"
      Un tableau à double entrée, appelé **matrice**, peut être représenté par une liste de listes.

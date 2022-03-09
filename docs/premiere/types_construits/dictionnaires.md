@@ -1,6 +1,11 @@
-# Les dictionnaires
+---
+title: Dictionnaires en Python
+description: Cours de spécialité NSI sur les dictionnaires tes en Python
+---
 
-## Définition
+# Les dictionnaires en Python
+
+## Définition d'un dictionnaire en Python
 
 !!! tip "Dictionnaire"
     Un **dictionnaire** est une collection non ordonnée d'éléments.
@@ -10,7 +15,7 @@
 !!! tip "Clés"
     Les **clés** peuvent être de n'importe quel type **non-mutable**: entier, chaîne de caractère, p-uplet.
 
-## Création d'un dictionnaire
+## Création d'un dictionnaire en Python
 
 !!! tip "Création d'un dictionnaire"
     Un nouveau **dictionnaire** est créé par affectation et nécessite l'utilisation d'**accolades**, ce qui la différencie des listes et des p-iplet.
@@ -31,7 +36,7 @@
 
     Le dictionnaire vide est `{}`
 
-## Accès aux éléments d'un dictionnaire
+## Accès aux éléments d'un dictionnaire en Python
 
 !!! tip "Accès grace aux clés"
     Les éléments du dictionnaire ne sont pas indexés.
@@ -52,7 +57,7 @@
     panier['fraise'] # 3
     ```
 
-## Modification du dictionnaire
+## Modification du dictionnaire en Python
 
 !!! tip "Mutable"
     Un **dictionnaire** est un objet **mutable**.
@@ -78,7 +83,7 @@
     # {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1, 'kiwi': 5}
     ```
 
-## Méthodes spécifiques
+## Méthodes spécifiques sur les dictionnaires en Python
 
 !!! tip "La méthode items()"
     La méthode `items()` renvoie la collection de tous les objets du dictionnaire.
@@ -133,7 +138,7 @@ for valeur in panier.values(): # (1)
 
 1. La méthode `values()` renvoie la collection itérable de toutes les valeurs du dictionnaire.
 
-## Exemples d'utilisation
+## Exemples d'utilisation. Scripts Python
 
 Test d'appartenance d'une clé:
 

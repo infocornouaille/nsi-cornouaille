@@ -1,6 +1,6 @@
 ---
 title: Sujet NSI 2022 - Sujet 23
-description: Sujet 23 épreuve pratique NSI 2022
+description: Sujet 23 épreuve pratique Numérique et Science Informatique 2022
 ---
 
 # Sujet NSI 2022 - 23

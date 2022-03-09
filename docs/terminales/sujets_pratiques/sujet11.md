@@ -1,6 +1,6 @@
 ---
 title: Sujet NSI 2022 - Sujet 11
-description: Sujet 11 épreuve pratique NSI 2022
+description: Sujet 11 épreuve pratique Numérique et Science Informatique 2022
 ---
 
 # Sujet NSI 2022 - Sujet 11

@@ -25,8 +25,21 @@
 {% set title = title ~ " - " ~ page.title | striptags %}
 {% endif %}
 
-
-
+{% if page and page.meta and page.meta.title and page.meta.description %}
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "{{ title }}",
+      "description": "{{ page.meta.description }}",
+      "provider": {
+        "@type": "Organization",
+        "name": "Lycée de Cornouaille - Quimper",
+        "sameAs": "{{ page.canonical_url }}"
+      }
+    }
+    </script>
+    {% endif %}
 
 
 

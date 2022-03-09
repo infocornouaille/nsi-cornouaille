@@ -1,6 +1,11 @@
-# Les p-uplet
+---
+title: tuple en Python
+description: Cours de spécialité NSI sur les tuple en Python
+---
 
-## Définition
+# Les p-uplet en Python
+
+## Définition des tuple en Python
 
 !!! tip "p-uplet"
     Un **p-uplet** (ou _tuple_ en anglais) est une collection ordonnée d'éléments, appelés _composantes_ ou _termes_. Chaque terme peut être de n'importe quel type.
@@ -13,7 +18,7 @@
 
     Un `tuple`est **non-mutable**
 
-## Création d'un p-uplet
+## Création d'un p-uplet en Python
 
 !!! tip "Création d'un tuple"
     En langage Python, les termes d'un p-uplet sont séparés par des virgules. Les **parenthèses** ne sont pas obligatoires mais sont fortement conseillées pour la lisibilité du code.
@@ -32,7 +37,7 @@
 !!! tip "tuple vide"
     Le tuple vide est `(, )`
 
-## Indexation des éléments du p-uplet
+## Indexation des éléments du p-uplet en Python
 
 !!! tip "Indexation"
     L'indexation fonctionne exactement comme avec les listes.
@@ -43,7 +48,7 @@
     pointA[1] # -4
     ```
 
-## Modification d'un p-uplet
+## Modification d'un p-uplet en Python
 
 !!! danger
     Il n'est pas possible de modifier par affectation les termes d'un p-uplet après sa création.
@@ -57,7 +62,7 @@
     t[0] = 12 # TypeError: 'tuple' object does not support item assignment
     ```
 
-## Fonction renvoyant un p-uplet de valeurs
+## Fonction renvoyant un p-uplet de valeurs en Python
 
 En programmation fonctionnelle, il est indispensable d'utiliser des fonctions pouvant renvoyer un ensemble de valeurs réutilisables, contenus dans un p-uplet ou une liste.
 
