@@ -16,3 +16,8 @@
     font-size: 0.8rem;
    
 }
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
