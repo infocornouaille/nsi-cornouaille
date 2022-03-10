@@ -7,6 +7,7 @@ site_author: David Couronné
 plugins:
   - git-revision-date
   - search
+  - macros
 
 
 
@@ -45,12 +46,19 @@ theme:
 
 
 markdown_extensions:
+  - attr_list
   - meta
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.snippets
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -81,6 +89,10 @@ nav:
   - Terminale NSI:
     - Introduction: terminales/index.md
     - Sujets pratiques:
-      - Sujet 1: terminales/sujets_pratiques/sujet1.md      
+      - Banque de sujets 2022: terminales/sujets_pratiques/BSN_2022.md 
+      - Sujet 1: terminales/sujets_pratiques/sujet1.md    
+      - Sujet 2: terminales/sujets_pratiques/sujet2.md  
+      - Sujet 3: terminales/sujets_pratiques/sujet3.md 
+      - Sujet 4: terminales/sujets_pratiques/sujet4.md  
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
