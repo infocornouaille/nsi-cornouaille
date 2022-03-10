@@ -5,8 +5,6 @@ description: Sujet 2 épreuve pratique Numérique et Science Informatique 2022
 
 # Sujet NSI 2022 - Sujet 2
 
-[Version originale du sujet](pdf2022/22-NSI-02.pdf){. target = "_blank"} en pdf.
-
 ## Exercice 1
 
 !!! example "Exercice 1"
