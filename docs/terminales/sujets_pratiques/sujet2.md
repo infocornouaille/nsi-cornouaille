@@ -14,6 +14,10 @@ description: Sujet 2 épreuve pratique Numérique et Science Informatique 2022
     === "Correction"
         --8<-- "includes/files/02_1/correction.md"
 
+
+<iframe src="https://console.basthon.fr/?script=eJwDAAAAAAE" width="100%" height="400"></iframe>
+
+
 ## Exercice 2
 
 !!! example "Exercice 2"
