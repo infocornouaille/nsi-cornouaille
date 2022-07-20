@@ -9,4 +9,3 @@ def tri_bulles(T):
                 T[j+1] = temp
     return T
 ```
-

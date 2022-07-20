@@ -33,6 +33,7 @@ def plus_courte_distance(tab, depart):
 
 assert plus_courte_distance([(7, 9), (2, 5), (5, 2)], (0, 0)) == (2, 5), "erreur"
 ```
+
 Recopier sous Python (sans les commentaires) ces deux fonctions puis compléter leur
 code et ajouter une ou des déclarations (`assert`) à la fonction `distance` permettant
 de vérifier la ou les préconditions.

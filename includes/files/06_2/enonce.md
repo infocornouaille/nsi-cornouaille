@@ -19,6 +19,7 @@ def recherche(gene, seq_adn):
 ```
 
 Exemples :
+
 ```python
 >>> recherche("AATC", "GTACAAATCTTGCC")
 True

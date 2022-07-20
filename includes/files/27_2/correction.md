@@ -6,7 +6,7 @@ def tri_iteratif(tab):
             if tab[i] > tab[imax] :
                 imax = i
         if tab[imax] > tab[k] :
-            tab[k], tab[imax] = tab[imax], tab[k] 
+            tab[k], tab[imax] = tab[imax], tab[k]
     return tab
 
 ```

@@ -27,5 +27,5 @@ def binaire(image, seuil):
                 L[i][j] = 0
             else:
                 L[i][j] = 1
-    return L    
+    return L
 ```

@@ -11,7 +11,6 @@ La fonction `depouille` doit permettre de compter le nombre de votes exprimés p
 artiste. Elle prend en paramètre un tableau et renvoie le résultat dans un dictionnaire dont les
 clés sont les noms des artistes et les valeurs le nombre de votes en leur faveur.
 
-
 La fonction vainqueur doit désigner le nom du ou des gagnants. Elle prend en paramètre un
 dictionnaire dont la structure est celle du dictionnaire renvoyé par la fonction `depouille` et
 renvoie un tableau. Ce tableau peut donc contenir plusieurs éléments s’il y a des artistes ex-

@@ -4,12 +4,9 @@ des majuscules et des caractères `*`. Par exemple `INFO*MA*IQUE`, `***I***E**` 
 Programmer une fonction correspond qui :
 
 - prend en paramètres deux chaînes de caractères `mot` et `mot_a_trous` où
-`mot_a_trous` est un mot à trous comme indiqué ci-dessus, 
-- renvoie :
-    - `True` si on peut obtenir `mot` en remplaçant convenablement les caractères
-`'*'` de `mot_a_trous`.
-    - `False` sinon.
-
+  `mot_a_trous` est un mot à trous comme indiqué ci-dessus,
+- renvoie : - `True` si on peut obtenir `mot` en remplaçant convenablement les caractères
+  `'*'` de `mot_a_trous`. - `False` sinon.
 
 Exemple :
 

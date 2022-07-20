@@ -3,6 +3,7 @@ un tableau de nombres entiers, et qui renvoie l’indice de la première occurre
 dans `tab` si `elt` est dans `tab` et `-1` sinon.
 
 Exemples :
+
 ```python
 >>> recherche(1, [2, 3, 4])
 -1

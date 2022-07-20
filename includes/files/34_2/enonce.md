@@ -37,10 +37,11 @@ def binaire(image, seuil):
                 L[i][j] = ...
             else:
                 L[i][j] = ...
-    return L    
+    return L
 ```
 
 Exemple :
+
 ```python
 >>> img = [[20, 34, 254, 145, 6], [23, 124, 287, 225, 69], [197, 174, 207, 25, 87], [255, 0, 24, 197, 189]]
 >>> nbLig(img)

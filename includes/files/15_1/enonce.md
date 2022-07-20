@@ -3,6 +3,7 @@
 liste.
 
 Exemples :
+
 ```python
 >>> nb_repetitions(5, [2, 5, 3, 5, 6, 9, 5])
 3

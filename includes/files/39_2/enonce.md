@@ -5,7 +5,7 @@ On la représente par une grille de nombres, c’est-à-dire par une liste compo
 Chaque sous-liste représentera donc une ligne du dessin.
 
 Dans le code ci-dessous, la fonction `affiche` permet d’afficher le dessin. Les pixels noirs
-(1 dans la grille) seront représentés par le caractère "*" et les blancs (0 dans la grille) par
+(1 dans la grille) seront représentés par le caractère "\*" et les blancs (0 dans la grille) par
 deux espaces.
 
 La fonction `zoomListe` prend en argument une liste `liste_depart` et un entier `k`. Elle
@@ -31,7 +31,7 @@ coeur = [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], \
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]
 
 def affiche(dessin):
-    ''' affichage d'une grille : les 1 sont représentés par 
+    ''' affichage d'une grille : les 1 sont représentés par
         des " *" , les 0 par deux espaces "  " '''
     for ligne in dessin:
         for col in ligne:
@@ -43,7 +43,7 @@ def affiche(dessin):
 
 
 def zoomListe(liste_depart,k):
-    '''renvoie une liste contenant k fois chaque 
+    '''renvoie une liste contenant k fois chaque
     élément de liste_depart'''
     liste_zoom = ...
     for elt in ... :
@@ -52,7 +52,7 @@ def zoomListe(liste_depart,k):
     return liste_zoom
 
 def zoomDessin(grille,k):
-    '''renvoie une grille où les lignes sont zoomées k fois 
+    '''renvoie une grille où les lignes sont zoomées k fois
     ET répétées k fois'''
     grille_zoom=[]
     for elt in grille:
@@ -67,43 +67,40 @@ Résultats à obtenir :
 ```python
 >>> affiche(coeur)
 ```
+
 ![image](data/272b.png){: .left}
 
 ```python
 >>> affiche(zoomDessin(coeur,3))
 ```
 
-
-
-                * * * * * *                   * * * * * *                  
-                * * * * * *                   * * * * * *                  
-                * * * * * *                   * * * * * *                  
-          * * *             * * *       * * *             * * *            
-          * * *             * * *       * * *             * * *            
-          * * *             * * *       * * *             * * *            
-    * * *                         * * *                         * * *      
-    * * *                         * * *                         * * *      
-    * * *                         * * *                         * * *      
-    * * *                                                       * * *      
-    * * *                                                       * * *      
-    * * *                                                       * * *      
-    * * *                                                       * * *      
-    * * *                                                       * * *      
-    * * *                                                       * * *      
-          * * *                                           * * *            
-          * * *                                           * * *            
-          * * *                                           * * *            
-                * * *                               * * *                  
-                * * *                               * * *                  
-                * * *                               * * *                  
-                      * * *                   * * *                        
-                      * * *                   * * *                        
-                      * * *                   * * *                        
-                            * * *       * * *                              
-                            * * *       * * *                              
-                            * * *       * * *                              
-                                  * * *                                    
-                                  * * *                                    
-                                  * * *                                    
-
-
+                * * * * * *                   * * * * * *
+                * * * * * *                   * * * * * *
+                * * * * * *                   * * * * * *
+          * * *             * * *       * * *             * * *
+          * * *             * * *       * * *             * * *
+          * * *             * * *       * * *             * * *
+    * * *                         * * *                         * * *
+    * * *                         * * *                         * * *
+    * * *                         * * *                         * * *
+    * * *                                                       * * *
+    * * *                                                       * * *
+    * * *                                                       * * *
+    * * *                                                       * * *
+    * * *                                                       * * *
+    * * *                                                       * * *
+          * * *                                           * * *
+          * * *                                           * * *
+          * * *                                           * * *
+                * * *                               * * *
+                * * *                               * * *
+                * * *                               * * *
+                      * * *                   * * *
+                      * * *                   * * *
+                      * * *                   * * *
+                            * * *       * * *
+                            * * *       * * *
+                            * * *       * * *
+                                  * * *
+                                  * * *
+                                  * * *

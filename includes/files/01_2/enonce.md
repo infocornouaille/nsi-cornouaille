@@ -25,14 +25,13 @@ def rendu_glouton(arendre, solution=[], i=0):
         return rendu_glouton(arendre, solution, ...)
 ```
 
-1. Erreur dans l'énoncé officiel : ```Pieces```
-
+1. Erreur dans l'énoncé officiel : `Pieces`
 
 On devra obtenir :
 
 ```python
->>> rendu_glouton(68, [], 0) 
+>>> rendu_glouton(68, [], 0)
 [50, 10, 5, 2, 1]
->>> rendu_glouton(291, [], 0) 
+>>> rendu_glouton(291, [], 0)
 [100, 100, 50, 20, 20, 1]
 ```

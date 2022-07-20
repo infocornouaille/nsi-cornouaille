@@ -3,9 +3,9 @@ Un élève de NSI décide de le coder en langage Python de la manière suivante 
 
 - le programme génère un nombre entier aléatoire compris entre 1 et 99 ;
 - si la proposition de l’utilisateur est plus petite que le nombre cherché, l’utilisateur en
-est averti. Il peut alors en tester un autre ;
+  est averti. Il peut alors en tester un autre ;
 - si la proposition de l’utilisateur est plus grande que le nombre cherché, l’utilisateur en
-est averti. Il peut alors en tester un autre ;
+  est averti. Il peut alors en tester un autre ;
 - si l’utilisateur trouve le bon nombre en 10 essais ou moins, il gagne ;
 - si l’utilisateur a fait plus de 10 essais sans trouver le bon nombre, il perd.
 

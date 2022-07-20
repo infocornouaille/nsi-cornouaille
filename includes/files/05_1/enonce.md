@@ -4,6 +4,7 @@ forme d’un dictionnaire à deux clés ‘min’ et ‘max’. Les tableaux ser
 forme de liste Python.
 
 Exemples :
+
 ```python
 >>> tableau = [0, 1, 4, 2, -2, 9, 3, 1, 7, 1]
 >>> resultat = rechercheMinMax(tableau)

@@ -1,4 +1,4 @@
-```python linenums='1' 
+```python linenums='1'
 def tri_insertion(L):
     n = len(L)
 

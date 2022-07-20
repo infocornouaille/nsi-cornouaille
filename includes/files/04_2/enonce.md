@@ -48,10 +48,11 @@ def propager(M, i, j, val):
         propager(M, i, ..., val)
 ```
 
-1. Dans l'énoncé original, il n'y a rien après le ```return```. 
-2. Il faudrait écrire ```len(M[0])``` plutôt que  ```len(M)```. (équivalent ici car l'image est carrée...)
+1. Dans l'énoncé original, il n'y a rien après le `return`.
+2. Il faudrait écrire `len(M[0])` plutôt que `len(M)`. (équivalent ici car l'image est carrée...)
 
 Exemple :
+
 ```python
 >>> M = [[0,0,1,0],[0,1,0,1],[1,1,1,0],[0,1,1,0]]
 >>> propager(M,2,1,3)

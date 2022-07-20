@@ -31,7 +31,7 @@ Exemples :
                      if elem == caractere:
                      occurence += 1
               return occurence
-              
+
        assert recherche('e', "sciences") == 2
        assert recherche('i', "mississippi") == 4
        assert recherche('a', "mississippi") == 0

@@ -21,7 +21,8 @@ On pourra distinguer les 4 cas où les deux « fils » du nœud sont `''`, le fi
 seulement est `''`, le fils droit seulement est `''`, aucun des deux fils n’est `''`.
 
 Exemple :
+
 ```python
 >>> taille(a, ’F’)
 9
-``` 
+```

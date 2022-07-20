@@ -1,6 +1,6 @@
 Soit `T` un tableau non vide d'entiers triés dans l'ordre croissant et `n` un entier.
 La fonction `chercher`, donnée à la page suivante, doit renvoyer un indice où la valeur `n`
-apparaît éventuellement dans `T`, et `None` sinon. 
+apparaît éventuellement dans `T`, et `None` sinon.
 
 Les paramètres de la fonction sont :
 
@@ -11,7 +11,6 @@ Les paramètres de la fonction sont :
 
 La fonction `chercher` est une fonction récursive basée sur le principe « diviser pour
 régner ».
-
 
 Le code de la fonction commence par vérifier si `0 <= i` et `j < len(T)`.  
 Si cette
@@ -36,6 +35,7 @@ def chercher(T, n, i, j):
 ```
 
 L'exécution du code doit donner :
+
 ```python
 >>> chercher([1,5,6,6,9,12],7,0,10)
 Erreur

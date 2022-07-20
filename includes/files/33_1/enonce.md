@@ -15,7 +15,9 @@ def convertir(T):
     est donnée par le tableau T
     """
 ```
+
 Exemple :
+
 ```python
 >>> convertir([1, 0, 1, 0, 0, 1, 1])
 83

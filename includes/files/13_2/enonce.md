@@ -1,5 +1,5 @@
 On veut écrire une classe pour gérer une file à l’aide d’une liste chaînée. On dispose d’une
-classe ```Maillon``` permettant la création d’un maillon de la chaîne, celui-ci étant constitué
+classe `Maillon` permettant la création d’un maillon de la chaîne, celui-ci étant constitué
 d’une valeur et d’une référence au maillon suivant de la chaîne :
 
 ```python linenums='1'
@@ -8,7 +8,8 @@ class Maillon :
         self.valeur = v
         self.suivant = None
 ```
-Compléter la classe ```File suivante``` où l’attribut ```dernier_file``` contient le maillon
+
+Compléter la classe `File suivante` où l’attribut `dernier_file` contient le maillon
 correspondant à l’élément arrivé en dernier dans la file :
 
 ```python linenums='1'
@@ -44,8 +45,10 @@ class File :
             return resultat
         return None
 ```
+
 On pourra tester le fonctionnement de la classe en utilisant les commandes
 suivantes dans la console Python :
+
 ```python
 >>> F = File()
 >>> F.est_vide()

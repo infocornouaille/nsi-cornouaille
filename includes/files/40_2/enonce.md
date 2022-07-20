@@ -3,7 +3,7 @@ dictionnaire :
 
 - les clefs sont les noms des élèves ;
 - les valeurs sont des dictionnaires dont les clefs sont les types d’épreuves et les
-valeurs sont les notes obtenues associées à leurs coefficients.
+  valeurs sont les notes obtenues associées à leurs coefficients.
 
 Avec :
 

@@ -17,9 +17,10 @@ def insere(a, tab):
     return l
 ```
 
-Compléter la fonction ```insere``` ci-dessus.
+Compléter la fonction `insere` ci-dessus.
 
 Exemples :
+
 ```python
 >>> insere(3,[1,2,4,5])
 [1, 2, 3, 4, 5]

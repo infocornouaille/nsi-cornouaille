@@ -1,18 +1,16 @@
 On dispose de chaînes de caractères contenant uniquement des parenthèses ouvrantes et
-fermantes. 
+fermantes.
 
 Un parenthésage est correct si :
 
 - le nombre de parenthèses ouvrantes de la chaîne est égal au nombre de parenthèses
-fermantes.
+  fermantes.
 - en parcourant la chaîne de gauche à droite, le nombre de parenthèses déjà ouvertes doit
-être, à tout moment, supérieur ou égal au nombre de parenthèses déjà fermées.
+  être, à tout moment, supérieur ou égal au nombre de parenthèses déjà fermées.
 
-
-Ainsi, `((()())(()))` est un parenthésage correct. 
+Ainsi, `((()())(()))` est un parenthésage correct.
 
 Les parenthésages `())(()` et `(())(()` sont, eux, incorrects.
-
 
 On dispose du code de la classe `Pile` suivant :
 
@@ -41,16 +39,14 @@ parenthèses et renvoie `True` si la chaîne est bien parenthésée et `False` s
 Cette fonction utilise une pile et suit le principe suivant : en parcourant la chaîne de gauche à
 droite, si on trouve une parenthèse ouvrante, on l’empile au sommet de la pile et si on trouve
 une parenthèse fermante, on dépile (si possible !) la parenthèse ouvrante stockée au sommet
-de la pile. 
+de la pile.
 
-La chaîne est alors bien parenthésée si, à la fin du parcours, la pile est vide. 
+La chaîne est alors bien parenthésée si, à la fin du parcours, la pile est vide.
 
-Elle est, par contre, mal parenthésée : 
+Elle est, par contre, mal parenthésée :
 
 - si dans le parcours, on trouve une parenthèse fermante, alors que la pile est vide ;
 - ou si, à la fin du parcours, la pile n’est pas vide.
-
-
 
 ```python linenums='1'
 def parenthesage(ch):
@@ -70,7 +66,5 @@ assert parenthesage("((()())(()))") == True
 assert parenthesage("())(()") == False
 assert parenthesage("(())(()") == False
 ```
-
-
 
 Compléter le code de la fonction `parenthesage`.

@@ -2,8 +2,8 @@
 
 !!! info
 
-    En général, on écrit un programme informatique pour résoudre un problème. 
-    
+    En général, on écrit un programme informatique pour résoudre un problème.
+
     Par exemple:
 
     * comment déterminer le plus court chemin pour aller d'une ville à une autre
@@ -43,14 +43,17 @@
 ## Notion de complexité
 
 !!! info
+
     Dans le programme de spécialité NSI, on s'intéresse uniquement au **coût en temps** d'un algorithme.
 
 !!! absctract "Donald Knuth"
+
     Le calcul de la **complexité algorithmique** (ou coût algorithmique) est introduit en **1962** par **Donald Knuth**, informaticien et mathématicien américain.
 
     C'est un indicateur de performance pertinent pour les algorithmes car il est indépendant de la machine utilisée (microprocesseur, mémoire, ...)
 
 !!! tip "Notation grand O"
+
     Lors de l'étude d'un algorithme, on peut s'intéresser au cas simple, et au cas le plus défavorable, appelé le **pire des cas**.
 
     Dans le pire des cas, le coût ou complexité de l'algorithme sera alors le plus élevé possible pour un même algorithme.

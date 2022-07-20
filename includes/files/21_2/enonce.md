@@ -22,6 +22,7 @@ def dichotomie(tab, x):
 ```
 
 Exemples :
+
 ```python
 >>> dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33],28)
 True

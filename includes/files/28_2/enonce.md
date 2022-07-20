@@ -9,9 +9,11 @@ def dec_to_bin(a):
         a = ...
     return bin_a
 ```
+
 Compléter la fonction `dec_to_bin`.
 
 Exemples :
+
 ```python
 >>> dec_to_bin(83)
 '1010011'

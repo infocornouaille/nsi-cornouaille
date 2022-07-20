@@ -2,10 +2,9 @@ On considère au plus 26 personnes A, B, C, D, E, F ... qui peuvent s'envoyer de
 avec deux règles à respecter :
 
 - chaque personne ne peut envoyer des messages qu'à la même personne
-(éventuellement elle-même),
+  (éventuellement elle-même),
 - chaque personne ne peut recevoir des messages qu'en provenance d'une seule
-personne (éventuellement elle-même).
-
+  personne (éventuellement elle-même).
 
 Voici un exemple - avec 6 personnes - de « plan d'envoi des messages » qui respecte les
 règles ci-dessus, puisque chaque personne est présente une seule fois dans chaque
@@ -30,26 +29,23 @@ En revanche, le plan d’envoi plan_b ci-dessous :
 `plan_b = {'A':'C', 'B':'F', 'C':'E', 'D':'A', 'E':'B', 'F':'D'}`
 
 comporte un unique cycle : A, C, E, B, F, D. Dans ce cas, lorsqu’un plan d’envoi comporte un
-unique cycle, on dit que le plan d’envoi est *cyclique*.
+unique cycle, on dit que le plan d’envoi est _cyclique_.
 
 Pour savoir si un plan d'envoi de messages comportant N personnes est cyclique, on peut
 utiliser l'algorithme ci-dessous :
 
-
 On part de la personne A et on inspecte les N – 1 successeurs dans le plan d'envoi :
 
 - Si un de ces N – 1 successeurs est A lui-même, on a trouvé un cycle de taille
-inférieure ou égale à N – 1. Il y a donc au moins deux cycles et le plan d'envoi n'est
-pas cyclique.
+  inférieure ou égale à N – 1. Il y a donc au moins deux cycles et le plan d'envoi n'est
+  pas cyclique.
 
 - Si on ne retombe pas sur A lors de cette inspection, on a un unique cycle qui passe
-par toutes les personnes : le plan d'envoi est cyclique.
-
+  par toutes les personnes : le plan d'envoi est cyclique.
 
 Compléter la fonction suivante en respectant la spécification.
 
-*Remarque :* la fonction python `len` permet d'obtenir la longueur d'un dictionnaire.
-
+_Remarque :_ la fonction python `len` permet d'obtenir la longueur d'un dictionnaire.
 
 ```python linenums='1'
 def est_cyclique(plan):
@@ -70,7 +66,7 @@ def est_cyclique(plan):
     return ...
 ```
 
-*Exemples :*
+_Exemples :_
 
 ```python
 >>> est_cyclique({'A':'E', 'F':'A', 'C':'D', 'E':'B', 'B':'F', 'D':'C'})

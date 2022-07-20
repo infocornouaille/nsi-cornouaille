@@ -3,6 +3,7 @@ trié `tab`, et qui renvoie l'indice de la première occurrence du minimum de ce
 tableaux seront représentés sous forme de liste Python.
 
 Exemples :
+
 ```python
 >>> RechercheMin([5])
 0

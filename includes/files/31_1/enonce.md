@@ -3,6 +3,7 @@ variable `a` de type numérique (`float` ou `int`) et un tableau `t` (type `list
 renvoie le nombre d'occurrences de `a` dans `t`.
 
 Exemples :
+
 ```python
 >>> recherche(5,[])
 0

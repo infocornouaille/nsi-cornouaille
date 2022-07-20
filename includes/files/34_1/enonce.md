@@ -10,6 +10,7 @@ nombre d’apparitions de `alphabet[i]` dans la chaine.
 Puis on calculera l’indice `k` d’un maximum du tableau `occurrence` et on affichera `alphabet[k]`.
 
 Exemple :
+
 ```python
 >>> ch = 'je suis en terminale et je passe le bac et je souhaite poursuivre des etudes pour devenir expert en informatique'
 >>> occurrence_max(ch)

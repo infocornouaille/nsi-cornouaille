@@ -5,6 +5,7 @@ Cette fonction doit renvoyer un indice correspondant au nombre cherché s’il e
 tableau, `-1` sinon.
 
 Exemples :
+
 ```python
 >>> recherche([2, 3, 4, 5, 6], 5)
 3

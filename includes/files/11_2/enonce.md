@@ -27,7 +27,7 @@ def cesar(message, decalage):
     return resultat
 ```
 
-Compléter la fonction ```cesar```.
+Compléter la fonction `cesar`.
 
 Exemples :
 
@@ -36,4 +36,4 @@ Exemples :
 'FSRNSYV E XSYW. ZMZI PE QEXMIVI RWM !'
 >>> cesar('GTSOTZW F YTZX. ANAJ QF RFYNJWJ SXN !',-5)
 'BONJOUR A TOUS. VIVE LA MATIERE NSI !'
-``` 
+```

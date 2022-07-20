@@ -1,27 +1,25 @@
 On affecte à chaque lettre de l'alphabet un code selon le tableau ci-dessous :
 
-| A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | 
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 
+|  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |  R  |  S  |  T  |  U  |  V  |  W  |  X  |  Y  |  Z  |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  | 21  | 22  | 23  | 24  | 25  | 26  |
 
+Pour un mot donné, on détermine d’une part son _code alphabétique concaténé_, obtenu
+par la juxtaposition des codes de chacun de ses caractères, et d’autre part, _son code
+additionné_, qui est la somme des codes de chacun de ses caractères.
 
-Pour un mot donné, on détermine d’une part son *code alphabétique concaténé*, obtenu
-par la juxtaposition des codes de chacun de ses caractères, et d’autre part, *son code
-additionné*, qui est la somme des codes de chacun de ses caractères.
-
-Par ailleurs, on dit que ce mot est « *parfait* » si le code additionné divise le code concaténé.
+Par ailleurs, on dit que ce mot est « _parfait_ » si le code additionné divise le code concaténé.
 
 Exemples :
 
 - Pour le mot `"PAUL"`, le code concaténé est la chaîne `'1612112'`, soit l’entier 1 612 112.
-Son code additionné est l’entier 50 car 16 + 1 + 21 + 12 = 50.
-50 ne divise pas l’entier 1 612 112 ; par conséquent, le mot `"PAUL"` n’est pas
-parfait.
+  Son code additionné est l’entier 50 car 16 + 1 + 21 + 12 = 50.
+  50 ne divise pas l’entier 1 612 112 ; par conséquent, le mot `"PAUL"` n’est pas
+  parfait.
 
 - Pour le mot `"ALAIN"`, le code concaténé est la chaîne `'1121914'`, soit l’entier
-1 121 914. Le code additionné est l’entier 37 car 1 + 12 + 1 + 9 + 14 = 37.
-37 divise l’entier 1 121 914 ; par conséquent, le mot `"ALAIN"` est parfait.
-
+  1 121 914. Le code additionné est l’entier 37 car 1 + 12 + 1 + 9 + 14 = 37.
+  37 divise l’entier 1 121 914 ; par conséquent, le mot `"ALAIN"` est parfait.
 
 Compléter la fonction `est_parfait` ci-dessous qui prend comme argument une chaîne
 de caractères `mot` (en lettres majuscules) et qui renvoie le code alphabétique concaténé,
@@ -49,6 +47,7 @@ def est_parfait(mot) :
 ```
 
 Exemples :
+
 ```python
 >>> est_parfait("PAUL")
 [50, 1612112, False]

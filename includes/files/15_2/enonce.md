@@ -5,6 +5,7 @@ des divisions successives comme illustré ici :
 
 Voici une fonction Python basée sur la méthode des divisions successives permettant de
 convertir un nombre entier positif en binaire :
+
 ```python linenums='1'
 def binaire(a):
     bin_a = str(...)
@@ -14,7 +15,8 @@ def binaire(a):
         a = ...
     return bin_a
 ```
-Compléter la fonction ```binaire```.
+
+Compléter la fonction `binaire`.
 
 Exemples :
 

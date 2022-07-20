@@ -34,12 +34,14 @@ class AdresseIP:
         else:
             return False
 ```
+
 Compléter le code ci-dessus et instancier trois objets : `adresse1`, `adresse2`,
 `adresse3` avec respectivement les arguments suivants :
 
 `'192.168.0.1'`, `'192.168.0.2'`, `'192.168.0.0'`
 
-Vérifier que : 
+Vérifier que :
+
 ```python
 >>> adresse1.est_reservee()
 False

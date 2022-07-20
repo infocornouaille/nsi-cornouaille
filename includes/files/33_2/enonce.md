@@ -31,6 +31,7 @@ def tri_insertion(L):
 ```
 
 Exemples :
+
 ```python
 >>> tri_insertion([2,5,-1,7,0,28])
 [-1, 0, 2, 5, 7, 28]

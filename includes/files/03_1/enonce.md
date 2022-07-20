@@ -2,11 +2,10 @@ Le codage par différence (delta encoding en anglais) permet de compresser un ta
 données en indiquant pour chaque donnée, sa différence avec la précédente (plutôt que la
 donnée elle-même). On se retrouve alors avec un tableau de données assez petites nécessitant
 moins de place en mémoire. Cette méthode se révèle efficace lorsque les valeurs consécutives
-sont proches. 
+sont proches.
 
 Programmer la fonction `delta` qui prend en paramètre un tableau non vide de nombres entiers
 et qui renvoie un tableau contenant les valeurs entières compressées à l’aide cette technique.
-
 
 Exemples :
 
@@ -14,6 +13,5 @@ Exemples :
 >>> delta([1000, 800, 802, 1000, 1003])
 [1000, -200, 2, 198, 3]
 >>> delta([42])
-[42] 
+[42]
 ```
-

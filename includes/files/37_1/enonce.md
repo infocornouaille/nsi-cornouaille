@@ -14,4 +14,3 @@ True
 >>> verifie([5])
 True
 ```
-

@@ -62,7 +62,7 @@ class ABR:
 ```
 
 Compléter les fonctions récursives parcours et recherche afin qu'elles respectent leurs
-spécifications. 
+spécifications.
 
 Voici un exemple d'utilisation :
 

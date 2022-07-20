@@ -1,6 +1,7 @@
 Écrire une fonction qui prend en paramètre un tableau d'entiers non vide et qui renvoie la
 moyenne de ces entiers. La fonction est spécifiée ci-après et doit passer les assertions
 fournies.
+
 ```python
 def moyenne (tab):
     '''

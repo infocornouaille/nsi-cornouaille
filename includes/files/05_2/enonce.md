@@ -10,7 +10,7 @@ class Carte:
         self.Couleur = c
         self.Valeur = v
 
-    """Renvoie le nom de la Carte As, 2, ... 10, 
+    """Renvoie le nom de la Carte As, 2, ... 10,
        Valet, Dame, Roi"""
     def getNom(self):
         if ( self.Valeur > 1 and self.Valeur < 11):
@@ -41,6 +41,7 @@ class PaquetDeCarte:
         if 0 <= pos < ??? :
             return ???
 ```
+
 Exemple :
 
 ```python

@@ -1,4 +1,5 @@
 On utilise un dictionnaire pour stocker au fur et à mesure les valeurs.
+
 ```python linenums='1'
 def fibonnaci(n):
     d = {}

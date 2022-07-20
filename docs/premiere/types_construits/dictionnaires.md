@@ -8,16 +8,19 @@ description: Cours de spécialité NSI sur les dictionnaires tes en Python
 ## Définition d'un dictionnaire en Python
 
 !!! tip "Dictionnaire"
+
     Un **dictionnaire** est une collection non ordonnée d'éléments.
 
     Ces éléments sont constitués d'une **clé** associée à une **valeur**.
 
 !!! tip "Clés"
+
     Les **clés** peuvent être de n'importe quel type **non-mutable**: entier, chaîne de caractère, p-uplet.
 
 ## Création d'un dictionnaire en Python
 
 !!! tip "Création d'un dictionnaire"
+
     Un nouveau **dictionnaire** est créé par affectation et nécessite l'utilisation d'**accolades**, ce qui la différencie des listes et des p-iplet.
 
     Une **valeur** est associée à une **clé** selon la syntaxe `clé: valeur`
@@ -39,17 +42,19 @@ description: Cours de spécialité NSI sur les dictionnaires tes en Python
 ## Accès aux éléments d'un dictionnaire en Python
 
 !!! tip "Accès grace aux clés"
+
     Les éléments du dictionnaire ne sont pas indexés.
 
     On accède à une valeur grace à la **clé** qui lui est associée.
 
 !!! danger
+
     Les **clés** d'un dictionnaire doivent être toutes **différentes**.
 
 !!! example "Exemple:"
 
     ```python
-    # On imagine un panier de fruits contenant 
+    # On imagine un panier de fruits contenant
     # 2 pommes, 2 oranges, 3 fraises et 1 banane
 
     panier = {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1}
@@ -60,6 +65,7 @@ description: Cours de spécialité NSI sur les dictionnaires tes en Python
 ## Modification du dictionnaire en Python
 
 !!! tip "Mutable"
+
     Un **dictionnaire** est un objet **mutable**.
 
 !!! example "Exemple:"
@@ -67,11 +73,12 @@ description: Cours de spécialité NSI sur les dictionnaires tes en Python
     ```python
     panier = {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1}
     panier['banane'] = 5
-    print(panier) 
+    print(panier)
     # {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 5}
     ```
 
 !!! tip "Ajout d'une clé"
+
     On peut ajouter une clé dans un dictionnaire
 
     Par exemple:
@@ -79,13 +86,14 @@ description: Cours de spécialité NSI sur les dictionnaires tes en Python
     ```python
     panier = {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1}
     panier['kiwi'] = 5
-    print(panier) 
+    print(panier)
     # {'pomme': 2, 'orange': 2, 'fraise': 3, 'banane': 1, 'kiwi': 5}
     ```
 
 ## Méthodes spécifiques sur les dictionnaires en Python
 
 !!! tip "La méthode items()"
+
     La méthode `items()` renvoie la collection de tous les objets du dictionnaire.
 
 ```python
@@ -104,6 +112,7 @@ for elem in panier.items(): # (1)
 1. La méthode `items()` renvoie la collection de tous les objets du dictionnaire.
 
 !!! tip "La méthode keys()"
+
     La méthode `keys()` renvoie la collection itérable de tous les clés du dictionnaire.
 
 ```python
@@ -122,6 +131,7 @@ for cle in panier.keys(): # (1)
 1. La méthode `keys()` renvoie la collection itérable de tous les clés du dictionnaire.
 
 !!! tip "La méthode keys()"
+
     La méthode `values()` renvoie la collection itérable de toutes les valeurs du dictionnaire.
 
 ```python

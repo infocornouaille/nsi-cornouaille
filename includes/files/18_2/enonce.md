@@ -1,5 +1,5 @@
 Un mot palindrome peut se lire de la même façon de gauche à droite ou de droite à
-gauche : *bob*, *radar*, et *non* sont des mots palindromes.
+gauche : _bob_, _radar_, et _non_ sont des mots palindromes.
 
 De même certains nombres sont eux aussi des palindromes : 33, 121, 345543.
 
@@ -38,6 +38,7 @@ def est_nbre_palindrome(nbre):
     chaine = ...
     return est_palindrome(chaine)
 ```
+
 Exemples :
 
 ```python

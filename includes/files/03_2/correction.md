@@ -11,7 +11,7 @@ class Noeud:
         self.gauche = g
         self.valeur = v
         self.droit = d
-        
+
     def est_une_feuille(self):
         '''Renvoie True si et seulement si le noeud est une feuille'''
         return self.gauche is None and self.droit is None

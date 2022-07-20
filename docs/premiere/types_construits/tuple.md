@@ -8,12 +8,15 @@ description: Cours de spécialité NSI sur les tuple en Python
 ## Définition des tuple en Python
 
 !!! tip "p-uplet"
+
     Un **p-uplet** (ou _tuple_ en anglais) est une collection ordonnée d'éléments, appelés _composantes_ ou _termes_. Chaque terme peut être de n'importe quel type.
 
 !!! tip "tuple"
+
     Le **p-uplet** est de type `tuple`.
 
 !!! tip "non mutable"
+
     Les termes du p-uplet **ne sont pas modifiables** par affectation.
 
     Un `tuple`est **non-mutable**
@@ -21,6 +24,7 @@ description: Cours de spécialité NSI sur les tuple en Python
 ## Création d'un p-uplet en Python
 
 !!! tip "Création d'un tuple"
+
     En langage Python, les termes d'un p-uplet sont séparés par des virgules. Les **parenthèses** ne sont pas obligatoires mais sont fortement conseillées pour la lisibilité du code.
 
 !!! example "Exemples"
@@ -29,17 +33,19 @@ description: Cours de spécialité NSI sur les tuple en Python
     t = (1, 8, 5)
     print(type(t)) # <class 'tuple'>
 
-    # ou bien, mais fortement déconseillé. 
+    # ou bien, mais fortement déconseillé.
     # Mis ici en exemple car cela arrive dans certains codes...
     t = 1, 8, 5
     ```
 
 !!! tip "tuple vide"
+
     Le tuple vide est `(, )`
 
 ## Indexation des éléments du p-uplet en Python
 
 !!! tip "Indexation"
+
     L'indexation fonctionne exactement comme avec les listes.
 
     ```python
@@ -51,6 +57,7 @@ description: Cours de spécialité NSI sur les tuple en Python
 ## Modification d'un p-uplet en Python
 
 !!! danger
+
     Il n'est pas possible de modifier par affectation les termes d'un p-uplet après sa création.
 
     Un p-uplet est dit **non-mutable**

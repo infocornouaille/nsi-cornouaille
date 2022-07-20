@@ -8,9 +8,10 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Définition des listes en Python
 
 !!! tip "Définition"
-     **Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
+**Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
 
 !!! info
+
      En Python, un **tableau** est appelé **liste**. Il est de type `list`
 
      Le tableau est modifiable par affectation, on dit qu'il est **mutable**
@@ -18,6 +19,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Bases sur les listes en Python
 
 !!! tip "Création d'une liste"
+
      Dans une liste, tous les termes doivent être séparés par des virgules et entourés de **crochets**
 
 !!! example "Exemple"
@@ -27,6 +29,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! info
+
      Une **liste** peut aussi contenir des éléments de types différents
 
      ```python
@@ -34,6 +37,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "liste vide"
+
      La liste vide est notée `[]`
 
      ```python
@@ -43,13 +47,14 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Accès aux éléments d'une liste en Python
 
 !!! tip "Accéder aux éléments d'une liste"
+
      On accède à un élément d'une liste en mettant entre crochets l'indice de l'élémént (qui commence à **zéro**).
 
 !!! example "Exemple"
 
      ```python
      >>> famille = ["Bart", "Lisa", "Maggie"]
-     >>> famille[0] 
+     >>> famille[0]
      'Bart'
      >>> famille[1]
      'Lisa'
@@ -58,6 +63,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! danger
+
      Un indice qui dépasse la valeur `longueur de la liste -1` provoquera une erreur `list index out of range`.
 
 !!! example "Exemple:"
@@ -69,6 +75,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "Indices négatifs"
+
      Il est possible d'utiliser des indices **négatifs**.
 
      $-1$ correspond alors au dernier élément de la liste.
@@ -86,6 +93,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Modification d'une liste par affectation en Python
 
 !!! tip "Modification d'une liste"
+
      Les termes d'une listes peuvent être modifiés par affectation au cours d'un programme.
 
      Cela est possible car les listes sont des objets **mutables**.
@@ -102,6 +110,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Longueur d'une liste en Python
 
 !!! tip "Longueur d'une liste"
+
      La longueur d'une liste sera donnée par la fonction `len()`
 
 !!! example "Exemple"
@@ -115,6 +124,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Test d'appartenance avec `in` en Python
 
 !!! tip "Tester l'appartenance d'un élément dans une liste"
+
      On peut tester si un élément appartient à une liste avec `in`
 
 !!! example "Example de test d'appartenance"
@@ -130,6 +140,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Opération sur les listes en Python
 
 !!! tip "La méthode append()"
+
      Les listes Python ont la particularité de pouvoir être allongées d'un élément en fin de liste, grâce à la méthode `append()`
 
 !!! example "Example d'utilisation de la méthode append()"
@@ -142,6 +153,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "La concaténation"
+
      Avec l'opérateur `+`, on peut **concaténer** deux listes, c'est-à-dire créer une nouvelle liste formée avec deux listes.
 
 !!! example "Exemple de concaténation"
@@ -155,6 +167,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "Multiplication par un entier"
+
      On peut utiliser la multiplication par un entier `int` pour dupliquer une liste.
 
 !!! example "Exemple de multiplication par un entier"
@@ -171,6 +184,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Le _slicing_ en Python
 
 !!! tip "Le _slicing_"
+
      Le découpage de liste (appelé _slicing_) permet d'extraire un séquence d'une liste.
 
      Soit `lst` une liste
@@ -204,17 +218,19 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! info
+
      Dans le cas du slicing, il n'y a pas d'erreur d'indexation. Par exemple:
 
      ```python
      >>> lst = [1, 2, 3]
-     >>> lst[2021:] 
+     >>> lst[2021:]
      []
      ```
 
 ## Liste en compréhension en Python
 
 !!! info
+
      Il est possible et élégant de construire une liste en compréhension avec le langage Python. C'est très pratique pour créer, transformer ou filtrer une liste.
 
 !!! example "Exemples de listes en compréhension"
@@ -234,6 +250,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "Filtrage"
+
      Ajouter une **condition de filtrage** permet de ne sélectionner que certains éléments de la liste.
 
 !!! example "Exemples de filtrages"
@@ -247,6 +264,7 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Matrices: les listes de listes en Python
 
 !!! tip "Création d'une liste de listes"
+
      Un tableau à double entrée, appelé **matrice**, peut être représenté par une liste de listes.
 
 !!! example "Exemples de matrices"
@@ -304,6 +322,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "Convention sur les lignes et les colonnes"
+
      Par convention, les **lignes** sont notées avec l'indice $i$ et les **colonnes** sont notées avec $j$.
 
 !!! example "Exemples d'accès aux éléments des matrices"
@@ -326,6 +345,7 @@ description: Cours de spécialité NSI sur les listes en Python
      ```
 
 !!! tip "Matrices en compréhension"
+
      On peut générer des matrices en compréhension
 
 !!! example "Exemple de matrice en compréhension"

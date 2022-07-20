@@ -3,6 +3,7 @@
 dans `mot`, c’est-à-dire le nombre de fois où `caractere` apparaît dans `mot`.
 
 Exemples :
+
 ```python
 >>> recherche('e', "sciences")
 2

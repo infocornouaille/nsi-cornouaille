@@ -9,6 +9,7 @@
 ## Comptage d'une occurence
 
 !!! tip "Parcours total"
+
     Le **parcours total** est par exemple mis en oeuvre lors d'un **comptage d'occurences**.
 
     La boucle **"pour"** est alors à privilégier.
@@ -41,6 +42,7 @@ def compte_occurences(tab, b):
 ## Recherche d'une occurence
 
 !!! tip "Parcours partiel"
+
     Le **parcours partiel** est par exemple mis en oeuvre lors d'une **recherche d'occurence**.
 
     La boucle **"tant que"** est alors à privilégier.
@@ -56,7 +58,7 @@ def recherche_occurence(tab, b):
     """In: tab une liste de nombres et b un nombre.
     Out: True si b appartient à la liste et False sinon"""
     if tab == []: # on teste si le tableau est vide
-        return False 
+        return False
     i = 0 # On initialise le parcours à l'indice 0
     trouve = False # On initialise le booléen trouve à False
     while i < len(tab) and not trouve: # boucle de parcours
@@ -68,6 +70,7 @@ def recherche_occurence(tab, b):
 ```
 
 !!! tip "Complexité du parcours partiel"
+
     La **complexité d'un parcours partiel** dépend de la structure de données parcourue.
 
     Le concept de **pire des cas** et de **meilleur des cas** prend tout son sens avec ce type de parcours.
@@ -81,6 +84,7 @@ def recherche_occurence(tab, b):
 ## Recherche d'un maximum ou d'un minimum
 
 !!! tip "Parcours total"
+
     Le parcours total est nécessaire pour trouver la **valeur maximale** (ou minimale) d'une structure de données.
 
     La boucle **"pour"** est donc à privilégier.
@@ -103,16 +107,18 @@ def maximum(tab):
 ## Calcul de la moyenne
 
 !!! tip "Parcours total"
+
     Pour **calculer la moyenne**, la relation suivante est indispensable:
 
-    $$\text{moyenne} = \frac{\text{somme des éléments}}{\text{nombre d'éléments}}$$
+    $$\text{moyenne} = \dfrac{\text{somme des éléments}}{\text{nombre d'éléments}}$$
 
     Le parcours total est donc nécessaire et une variable temporaire sera utilisée pour stocker la somme de tous les éléments rencontrés au fil du parcours.
 
     La boucle **"pour"** est donc à privilégier.
 
 !!! info
-    L'algorithme de calcul d'une moyenne est *ressemble* à l'algorithme de comptage d'occurences.
+
+    L'algorithme de calcul d'une moyenne est _ressemble_ à l'algorithme de comptage d'occurences.
 
 ```python
 def moyenne(tab):

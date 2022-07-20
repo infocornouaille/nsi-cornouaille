@@ -3,6 +3,7 @@ flottants et qui renvoie la moyenne des valeurs du tableau. Les tableaux seront
 représentés sous forme de liste Python.
 
 Exemples :
+
 ```python
 >>> moyenne([1.0])
 1.0

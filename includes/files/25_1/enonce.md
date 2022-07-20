@@ -12,12 +12,10 @@ animaux = [ {'nom':'Medor', 'espece':'chien', 'age':5, 'enclos':2},
 
 Programmer une fonction `selection_enclos` qui :
 
-- prend en paramètres :
-    - une table `table_animaux` contenant des enregistrements relatifs à des
-animaux (comme dans l'exemple ci-dessus),
-    - un numéro d'enclos `num_enclos` ;
+- prend en paramètres : - une table `table_animaux` contenant des enregistrements relatifs à des
+  animaux (comme dans l'exemple ci-dessus), - un numéro d'enclos `num_enclos` ;
 - renvoie une table contenant les enregistrements de `table_animaux` dont l'attribut
-`'enclos'` est `num_enclos`.
+  `'enclos'` est `num_enclos`.
 
 Exemples avec la table animaux ci-dessus :
 

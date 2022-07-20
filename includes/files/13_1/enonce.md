@@ -9,6 +9,7 @@ On utilisera un algorithme glouton : on commencera par rendre le nombre maximal 
 billets de 5 euros, puis celui des pièces de 2 euros et enfin celui des pièces de 1 euros.
 
 Exemples :
+
 ```python
 >>> rendu(13)
 [2,1,1]

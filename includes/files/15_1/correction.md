@@ -5,4 +5,4 @@ def nb_repetitions(elt, tab):
         if element == elt:
             nb += 1
     return nb
-``` 
+```

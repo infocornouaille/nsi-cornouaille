@@ -31,6 +31,7 @@ def rendu_monnaie_centimes(s_due, s_versee):
 ```
 
 Compléter ce code pour qu'il donne :
+
 ```python
 >>> rendu_monnaie_centimes(700,700)
 []

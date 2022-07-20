@@ -8,8 +8,8 @@ description: Sujet 3 épreuve pratique Numérique et Science Informatique 2022
 ## Exercice 1
 
 !!! example "Exercice 03.1"
-    === "Énoncé"
-        --8<-- "includes/files/03_1/enonce.md"
+=== "Énoncé"
+--8<-- "includes/files/03_1/enonce.md"
 
     === "Correction"
         --8<-- "includes/files/03_1/correction.md"
@@ -17,10 +17,10 @@ description: Sujet 3 épreuve pratique Numérique et Science Informatique 2022
 ## Exercice 2
 
 !!! example "Exercice 03.2"
-    === "Énoncé"
-        --8<-- "includes/files/03_2/enonce.md"
+=== "Énoncé"
+--8<-- "includes/files/03_2/enonce.md"
 
     === "Correction"
         --8<-- "includes/files/03_2/correction.md"
 
-        ```          
+        ```

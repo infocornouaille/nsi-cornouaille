@@ -3,6 +3,7 @@
 successifs qu'il peut y avoir dans `tab`.
 
 Exemples :
+
 ```python
 >>> recherche([1, 4, 3, 5])
 []

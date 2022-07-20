@@ -12,4 +12,4 @@ def rendu_monnaie_centimes(s_due, s_versee):
             i = i - 1
     return rendu
 
-``` 
+```

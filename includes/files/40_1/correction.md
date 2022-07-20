@@ -4,5 +4,5 @@ def recherche(elt, tab):
     for i in range(len(tab)):
         if tab[i] == elt:
             tab_indices.append(i)
-    return tab_indices        
+    return tab_indices
 ```
