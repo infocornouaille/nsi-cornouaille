@@ -72,6 +72,12 @@ extra:
   analytics:
     provider: google
     property: G-NW109M0CP2
+  blog:
+    dir: blog
+    author: David Couronné
+    words_read_per_minute: 300
+    list_length: 25
+    extended_preview: true
 
 
 # Page tree
@@ -96,3 +102,9 @@ nav:
       - Sujet 4: terminales/sujets_pratiques/sujet4.md  
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
+
+  - Blog:
+      - blog/index.md
+      - 2021:
+          - blog/2021/2021-06-10-mac-securiser-cloud.md
+
