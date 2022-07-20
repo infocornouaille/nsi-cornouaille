@@ -5,6 +5,7 @@ description: Apprenez comment sécuriser vos fichier dans le cloud
 tags: [sécurité, mac]
 author: David Couronné
 date: 2021-06-10
+image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523332/Matterhorn_sunset_2016__28Unsplash_29.jpg
 ---
 
 ## Pourquoi chiffrer ses fichiers ?

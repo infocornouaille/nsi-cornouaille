@@ -9,6 +9,22 @@
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:description" content="{{ page.meta.description }}" />
 <meta property="og:url" content="{{ page.canonical_url }}" />
+
+<script type="application/ld+json">
+    { "@context": "https://schema.org", 
+     "@type": "BlogPosting",
+     "headline": "{{  page.title }}",
+     "image": "{{ page.meta.image }}",
+     "datePublished": "{{ page.meta.date }}",
+     "dateCreated": "{{ page.meta.date }}",
+     "dateModified": "{{ page.meta.date }}",
+     "description": "{{ page.meta.description }}",
+       "author": {
+        "@type": "Person",
+        "name": "David Couronné"
+      }
+     }
+    </script>
 {% endblock %}
 
 {% block content %}
