@@ -1,6 +1,6 @@
 ---
 template: blog_post.html
-title: Comment sécuriser ses fichiers sur le cloud avec un Mac
+title: Sécuriser ses fichiers sur le cloud avec un Mac
 description: Apprenez comment sécuriser vos fichier dans le cloud
 tags: [sécurité, mac]
 author: David Couronné
