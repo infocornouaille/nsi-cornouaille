@@ -15,7 +15,7 @@ jobs:
       - run: sudo apt update
       - run: sudo apt-get update
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: pip install mkdocs-material
+      - run: pip install mkdocs-material=="8.4.0rc1"
       - run: pip install mkdocs-macros-plugin
       - run: pip install mkdocs-awesome-pages-plugin
       - run: pip install mkdocs-git-revision-date-plugin
