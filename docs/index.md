@@ -1,3 +1,8 @@
+---
+hide:
+  - feedback
+---
+
 # Bienvenue sur NSI Cornouaille
 
 Ce site contient des ressources pour la spécialité Numérique et Sciences Informatiques.
