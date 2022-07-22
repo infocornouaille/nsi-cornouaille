@@ -75,3 +75,21 @@ Il existe une multitude de types de données en Python.
     En mathématiques, c'est l'ensemble des décimaux $\mathbb{D}$.
 
     Mais parfois en informatique, on dit que ce sont des réels (alors que non ...)
+
+!!! tip "str: les chaînes de caractères"
+
+    `str`: de l'anglais *string of characters*, correspond à une chaîne de caractères.
+
+    Exemple: "Bonjour", "23", 'Le ciel est bleu', ...
+
+## Opérations sur les nombres
+
+!!! tip "Différentes opérations sur les nombres"
+
+    - `+`: Addition: `2 + 3`
+    - `-`: Soustraction: `2 - 3`
+    - `*`: Multiplication: `2*3`
+    - `/`: Division: `5/2`(qui donne 2.5)
+    - `**`: Exposant: `2**3`qui donne 8 ($2^3$)
+    - `%`: Modulo: `17%5` qui donne 2 (reste de la division euclidienne de 17 par 5)
+    - `//`: Quotient: `17//5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
