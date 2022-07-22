@@ -80,7 +80,7 @@ Il existe une multitude de types de données en Python.
 
     `str`: de l'anglais *string of characters*, correspond à une chaîne de caractères.
 
-    Exemple: "Bonjour", "23", 'Le ciel est bleu', ...
+    Exemples: "Bonjour", "23", 'Le ciel est bleu', ...
 
 ## Opérations sur les nombres
 
@@ -93,3 +93,29 @@ Il existe une multitude de types de données en Python.
     - `**`: Exposant: `2**3`qui donne 8 ($2^3$)
     - `%`: Modulo: `17%5` qui donne 2 (reste de la division euclidienne de 17 par 5)
     - `//`: Quotient: `17//5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
+
+
+!!! example "Exemples"
+
+    ```python
+    >>> 2 + 3 * 6
+    20
+    >>> (2 + 3) * 6
+    30
+    >>> 48565878 * 578453
+    28093077826734
+    >>> 2 ** 8
+    256
+    >>> 23 / 7
+    3.2857142857142856
+    >>> 23 // 7
+    3
+    >>> 23 % 7
+    2
+    >>> 2 + 2
+    4
+    >>> (5 - 1) * ((7 + 1) / (3 - 1))
+    16.0
+    ```
+
+
