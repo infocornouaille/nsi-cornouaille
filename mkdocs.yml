@@ -107,6 +107,8 @@ nav:
   - Accueil: index.md
   - Première NSI:
     - Accueil: premiere/index.md
+    - Les bases de Python:
+      - Principes de base de Python: premiere/bases_de_python/principes.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
       - Les tuple: premiere/types_construits/tuple.md
