@@ -57,22 +57,22 @@ Les opérateurs `==`et `!=` peuvent en fait fonctionner avec des valeurs de n'im
 
 !!! example "Exemples avec différents types de données"
 
-```python
->>> 'hello' == 'hello'
-True
->>> 'hello' == 'Hello'
-False
->>> 'dog' != 'cat'
-True
->>> True == True
-True
->>> True != False
-True
->>> 42 == 42.0
-True
- >>> 42 == '42'
-False
-```
+    ```python
+    >>> 'hello' == 'hello'
+    True
+    >>> 'hello' == 'Hello'
+    False
+    >>> 'dog' != 'cat'
+    True
+    >>> True == True
+    True
+    >>> True != False
+    True
+    >>> 42 == 42.0
+    True
+    >>> 42 == '42'
+    False
+    ```
 
 Notez qu'une valeur entière ou à virgule flottante sera toujours différente d'une valeur de chaîne.
 
@@ -80,20 +80,20 @@ L'expression `42 == '42'` prend la valeur `False`car Python considère que l'ent
 
 !!! example "Exemples avec <, >, <=et >="
 
-```python
->>> 42 < 100
-True
->>> 42 > 100
-False
->>> 42 < 42
-False
->>> prix = 42
->>> prix <= 42
-True
->>> mon_age = 29
->>> mon_age >= 10
-True
-```
+    ```python
+    >>> 42 < 100
+    True
+    >>> 42 > 100
+    False
+    >>> 42 < 42
+    False
+    >>> prix = 42
+    >>> prix <= 42
+    True
+    >>> mon_age = 29
+    >>> mon_age >= 10
+    True
+    ```
 
 ## Opérateurs booléens
 
@@ -107,7 +107,7 @@ Les opérateurs `and` et `or` prennent toujours deux valeurs booléennes (ou exp
 
     - L' opérateur `and` évalue une expression à `True` si les deux valeurs booléennes sont `True`; sinon, il est évalué à `False`. Entrez quelques expressions en utilisant anddans le shell interactif pour le voir en action.
 
-!!! exemple "Exemples avec `and`"
+!!! exemple "Exemples fondamentaux avec `and`"
 
     ```python
     >>> True and True
@@ -124,7 +124,7 @@ Les opérateurs `and` et `or` prennent toujours deux valeurs booléennes (ou exp
 
     L' opérateur `or` évalue une expression à `True`si l'une des deux valeurs booléennes est `True`. Si les deux sont `False`, il est évalué à `False`.
 
-!!! exemple "Exemples avec `and`"
+!!! exemple "Exemples fondamentaux avec `or`"
 
     ```python
     >>> True or True
