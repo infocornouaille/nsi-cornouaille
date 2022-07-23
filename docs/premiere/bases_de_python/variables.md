@@ -97,10 +97,10 @@ Lorsqu'une variable se voit attribuer une nouvelle valeur, l'ancienne valeur est
     Par exemple si nous voulons stocker la valeur d'un *prix après réduction* dans une variable:
 
     - **camelCase**: `prixApresReduction`
-    - **sneaky_case**: `prix_apres_reduction`
+    - **snake_case**: `prix_apres_reduction`
     - **PascalCase**: `PrixApresReduction`
 
-    La documentation de Python recommande d'utiliser le **sneaky_case**.
+    La documentation de Python recommande d'utiliser le **snake_case**.
 
 ## L'incrémentation d'une variable.
 
