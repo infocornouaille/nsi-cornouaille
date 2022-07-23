@@ -13,9 +13,11 @@ Ce chapitre contient quelques exemples qui vous encouragent à taper dans le she
 
 ## Saisie d'expressions dans le shell interactif
 
-Vous pouvez utiliser un shell interactif en ligne, par exemple programmiz.
+Vous pouvez utiliser un shell interactif en ligne, par exemple le bac à sable Python.
 
-Lien direct: [Programmiz](https://www.programiz.com/python-programming/online-compiler/)
+Lien direct: [basthon](https://console.basthon.fr/)
+
+Cet éditeur en ligne se compose d'un éditeur de script dans la partie et gauche et de la console (shell interactif) dans la partie droite.
 
 Essayez:
 
