@@ -144,11 +144,13 @@ La signification d'un opérateur peut changer en fonction des types de données 
 
     Lorsque l'opérateur `+` est utilisé sur deux valeurs de chaîne, il joint les chaînes en tant qu'**opérateur de concaténation** de chaînes.
 
-    Exemple:
+    Exemples:
 
     ```python
     >>> 'Alice' + 'Bob'
     'AliceBob'
+    >>> '1' + '2'
+    '12'
     ```
 
 L'expression est évaluée jusqu'à une seule nouvelle valeur de chaîne qui combine le texte des deux chaînes. Cependant, si vous essayez d'utiliser l' opérateur `+`sur une chaîne et une valeur entière, Python ne saura pas comment gérer cela et affichera un message d'erreur.
