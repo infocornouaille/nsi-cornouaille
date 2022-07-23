@@ -35,11 +35,61 @@ Dans l'exemple précédent, `2 + 2` est évalué jusqu'à une seule valeur, 4. U
 2
 ```
 
-## Les erreurs sont correctes !
+## Opérations sur les nombres
+
+!!! tip "Différentes opérations sur les nombres"
+
+    - `+`: Addition: `2 + 3`
+    - `-`: Soustraction: `2 - 3`
+    - `*`: Multiplication: `2*3`
+    - `/`: Division: `5/2`(qui donne 2.5)
+    - `**`: Exposant: `2**3`qui donne 8 ($2^3$)
+    - `%`: Modulo: `17%5` qui donne 2 (reste de la division euclidienne de 17 par 5)
+    - `//`: Quotient: `17//5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
+
+!!! example "Exemples"
+
+    ```python
+    >>> 2 + 3 * 6
+    20
+    >>> (2 + 3) * 6
+    30
+    >>> 48565878 * 578453
+    28093077826734
+    >>> 2 ** 8
+    256
+    >>> 23 / 7
+    3.2857142857142856
+    >>> 23 // 7
+    3
+    >>> 23 % 7
+    2
+    >>> 2 + 2
+    4
+    >>> (5 - 1) * ((7 + 1) / (3 - 1))
+    16.0
+    ```
+
+## Les erreurs !
 
 Les programmes se bloquent s'ils contiennent du code que l'ordinateur ne peut pas comprendre, ce qui fera en sorte que Python affiche un message d'erreur. Cependant, un message d'erreur ne cassera pas votre ordinateur, alors n'ayez pas peur de faire des erreurs. Un _plantage_ signifie simplement que le programme a cessé de fonctionner de manière inattendue.
 
 Si vous voulez en savoir plus sur un message d'erreur, vous pouvez rechercher le texte exact du message en ligne pour en savoir plus sur cette erreur spécifique.
+
+!!! example "Exemples"
+
+    ```python
+    >>> 5 +
+        File "<stdin>", line 1
+        5 +
+          ^
+    SyntaxError: invalid syntax
+    >>> 42 + 5 + * 2
+      File "<stdin>", line 1
+        42 + 5 + * 2
+                 ^
+    SyntaxError: invalid syntax
+    ```
 
 ## Les types de données de base
 
@@ -82,40 +132,63 @@ Il existe une multitude de types de données en Python.
 
     Exemples: "Bonjour", "23", 'Le ciel est bleu', ...
 
-## Opérations sur les nombres
+!!! tip "bool: les booléens"
 
-!!! tip "Différentes opérations sur les nombres"
+    `bool`: de l'anglais *boolean value* (valeur booléenne), correspond au résultat d'un test. Une variable de ce type prend deux valeurs: `True`(vrai) ou `False`(faux).
 
-    - `+`: Addition: `2 + 3`
-    - `-`: Soustraction: `2 - 3`
-    - `*`: Multiplication: `2*3`
-    - `/`: Division: `5/2`(qui donne 2.5)
-    - `**`: Exposant: `2**3`qui donne 8 ($2^3$)
-    - `%`: Modulo: `17%5` qui donne 2 (reste de la division euclidienne de 17 par 5)
-    - `//`: Quotient: `17//5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
+## Concaténation et réplication de chaînes
 
+La signification d'un opérateur peut changer en fonction des types de données des valeurs à côté de lui. Par exemple, `+`est l'opérateur d'addition lorsqu'il opère sur deux nombres entiers ou des valeurs à virgule flottante. Cependant, lorsqu'il est utilisé sur deux valeurs de chaîne, il joint les chaînes en tant qu'opérateur de concaténation de chaînes.
 
-!!! example "Exemples"
+!!! tip "Concaténation de chaînes de caractères"
+
+    Lorsque l'opérateur `+` est utilisé sur deux valeurs de chaîne, il joint les chaînes en tant qu'**opérateur de concaténation** de chaînes.
+
+    Exemple:
 
     ```python
-    >>> 2 + 3 * 6
-    20
-    >>> (2 + 3) * 6
-    30
-    >>> 48565878 * 578453
-    28093077826734
-    >>> 2 ** 8
-    256
-    >>> 23 / 7
-    3.2857142857142856
-    >>> 23 // 7
-    3
-    >>> 23 % 7
-    2
-    >>> 2 + 2
-    4
-    >>> (5 - 1) * ((7 + 1) / (3 - 1))
-    16.0
+    >>> 'Alice' + 'Bob'
+    'AliceBob'
     ```
 
+L'expression est évaluée jusqu'à une seule nouvelle valeur de chaîne qui combine le texte des deux chaînes. Cependant, si vous essayez d'utiliser l' opérateur `+`sur une chaîne et une valeur entière, Python ne saura pas comment gérer cela et affichera un message d'erreur.
 
+```python
+>>> 'Alice' + 42
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    'Alice' + 42
+TypeError: Can't convert 'int' object to str implicitly
+```
+
+Le message d'erreur `Can't convert 'int' object to str implicitly`signifie que Python pensait que vous essayiez de concaténer un entier à la chaîne 'Alice'. Votre code devra convertir explicitement l'entier en chaîne, car Python ne peut pas le faire automatiquement.
+
+!!! tip "Réplication de chaînes"
+
+    L' **opérateur** `*` est utilisé pour la multiplication lorsqu'il opère sur deux valeurs entières ou à virgule flottante. Mais lorsque l' opérateur `*`est utilisé sur une valeur de chaîne et une valeur entière, il devient l' **opérateur de réplication de chaîne** .
+
+    Exemple:
+
+    ```python
+    >>> 'Alice' * 5
+    'AliceAliceAliceAliceAlice'
+    ```
+
+L'expression est évaluée jusqu'à une valeur de chaîne unique qui répète l'original un nombre de fois égal à la valeur entière. La réplication de chaînes est une astuce utile, mais elle n'est pas utilisée aussi souvent que la concaténation de chaînes.
+
+L' opérateur `*`peut être utilisé avec seulement deux valeurs numériques (pour la multiplication) ou une valeur de chaîne et une valeur entière (pour la réplication de chaîne). Sinon, Python affichera simplement un message d'erreur.
+
+```python
+>>> 'Alice' * 'Bob'
+Traceback (most recent call last):
+  File "<pyshell#32>", line 1, in <module>
+    'Alice' * 'Bob'
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 'Alice' * 5.0
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    'Alice' * 5.0
+TypeError: can't multiply sequence by non-int of type 'float'
+```
+
+Il est logique que Python ne comprenne pas ces expressions : vous ne pouvez pas multiplier deux mots et il est difficile de répliquer une chaîne arbitraire un nombre fractionnaire de fois.
