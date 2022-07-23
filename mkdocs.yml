@@ -111,6 +111,7 @@ nav:
       - Principes de base de Python: premiere/bases_de_python/principes.md
       - Stockage dans des variables: premiere/bases_de_python/variables.md
       - Les booléens: premiere/bases_de_python/booleens.md
+      - Les fonctions: premiere/bases_de_python/fonctions.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
       - Les tuple: premiere/types_construits/tuple.md
