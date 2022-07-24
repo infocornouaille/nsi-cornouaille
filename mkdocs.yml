@@ -116,6 +116,7 @@ nav:
     - Représentation des nombres:
       - Le binaire: premiere/representation/binaire.md
       - Codage des entiers: premiere/representation/codage_entiers.md
+      - Codage de non entiers: premiere/representation/codage_non_entiers.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
       - Les tuple: premiere/types_construits/tuple.md
