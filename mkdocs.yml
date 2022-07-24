@@ -112,6 +112,7 @@ nav:
       - Stockage dans des variables: premiere/bases_de_python/variables.md
       - Les booléens: premiere/bases_de_python/booleens.md
       - Les fonctions: premiere/bases_de_python/fonctions.md
+      - Les structures conditionnelles: premiere/bases_de_python/ifelse.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
       - Les tuple: premiere/types_construits/tuple.md
@@ -129,7 +130,8 @@ nav:
       - Sujet 4: terminales/sujets_pratiques/sujet4.md  
       - Sujet 11: terminales/sujets_pratiques/sujet11.md
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
-
+  - Ressources:
+    - Anaconda et Miniconda: ressources/conda.md
   - Blog:
       - blog/index.md
       - 2021:
