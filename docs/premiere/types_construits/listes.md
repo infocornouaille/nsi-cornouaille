@@ -8,7 +8,8 @@ description: Cours de spécialité NSI sur les listes en Python
 ## Définition des listes en Python
 
 !!! tip "Définition"
-**Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
+
+     **Tableau**: Un tableau est une collection ordonnée d'éléments de n'importe quel type, organisés séquentiellement les uns à la suite des autres.
 
 !!! info
 
