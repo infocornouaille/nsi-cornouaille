@@ -113,6 +113,9 @@ nav:
       - Les booléens: premiere/bases_de_python/booleens.md
       - Les fonctions: premiere/bases_de_python/fonctions.md
       - Les structures conditionnelles: premiere/bases_de_python/ifelse.md
+    - Représentation des nombres:
+      - Le binaire: premiere/representation/binaire.md
+      - Codage des entiers: premiere/representation/codage_entiers.md
     - Types construits:
       - Les listes: premiere/types_construits/listes.md
       - Les tuple: premiere/types_construits/tuple.md
