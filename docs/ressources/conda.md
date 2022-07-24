@@ -82,6 +82,12 @@ Dans le cas général:
 conda env create -n [name of the environment] [python version] [packages]
 ```
 
+Exemple:
+
+```bash
+conda create --prefix ./envs jupyterlab=3.2 matplotlib=3.5 numpy=1.21
+```
+
 - avec un fichier
 
 ```bash
