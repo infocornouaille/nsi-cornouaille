@@ -135,6 +135,7 @@ nav:
       - Sujet 23: terminales/sujets_pratiques/sujet23.md
   - Ressources:
     - Anaconda et Miniconda: ressources/conda.md
+    - Visual Studio Code: ressources/vscode.md
   - Blog:
       - blog/index.md
       - 2021:
