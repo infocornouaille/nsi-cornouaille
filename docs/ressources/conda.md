@@ -30,6 +30,24 @@ conda env list
 conda create --name envname
 ```
 
+Puis pour l'activer:
+
+```bash
+conda activate envname
+```
+
+### Créer un nouvel environnement dans un dossier
+
+```bash
+conda create --prefix ./envname
+```
+
+Puis pour l'activer:
+
+```bash
+conda activate ./envname
+```
+
 ### Supprimer un environnement et ses dépendances
 
 ```bash
