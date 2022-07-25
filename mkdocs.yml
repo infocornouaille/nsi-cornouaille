@@ -137,6 +137,7 @@ nav:
   - Ressources:
     - Anaconda et Miniconda: ressources/conda.md
     - Visual Studio Code: ressources/vscode.md
+    - Types en Python: ressources/types.md
   - Blog:
       - blog/index.md
       - 2021:
