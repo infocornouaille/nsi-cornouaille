@@ -33,7 +33,7 @@ $=210_{10}$
 
 Le nombre binaire 11010010 correspond donc au nombre décimal 210.
 
-##### En python :
+##### En python
 
 En Python, on peut utiliser la fonction `int("nombre",base)`.
 
@@ -42,7 +42,7 @@ int("11010010",2)
 # Sortie: 210
 ```
 
-#### Du décimal vers le binaire :
+#### Du décimal vers le binaire
 
 Principe : dans chaque nombre décimal, il existe une plus grande puissance de 2 qui est inférieure au nombre.
 
@@ -60,7 +60,7 @@ Donc $243_{10}=11110011_2$
 
 ![image](./data/div_successives.gif)
 
-##### En python :
+##### En python
 
 En Python, on peut utiliser la fonction `bin(nombre)`. Elle renvoie une chaîne de caractère où le nombre binaire est précédé de `'0b'`.
 
@@ -69,16 +69,13 @@ bin(243)
 # '0b11110011'
 ```
 
-### Exercice :
+!!! example "Exercice"
 
-Quelle est la valeur maximale d'un octet (un octet = 8 chiffres binaires) ?
+    === "Énoncé"
+        Quelle est la valeur maximale d'un octet (un octet = 8 chiffres binaires) ?
 
-<details>
-  <summary>Correction</summary>
-
-$11111111_2=255$. On retrouve ce nombre comme étant la valeur maximale d'une composante de couleur dans le codage RGB, ce qui signifie que chaque composante est codée sur un octet.
-
-</details>
+    === "Correction"
+        $11111111_2=255$. On retrouve ce nombre comme étant la valeur maximale d'une composante de couleur dans le codage RGB, ce qui signifie que chaque composante est codée sur un octet.
 
 ## II. Le système hexadécimal
 
@@ -99,7 +96,7 @@ D représente 13
 E représente 14  
 F représente 15
 
-#### De l'hexadécimal vers le décimal :
+#### De l'hexadécimal vers le décimal
 
 |  256   |   16   |   1    |
 | :----: | :----: | :----: |
@@ -112,19 +109,17 @@ Le nombre hexadécimal `1D2` correspond donc au nombre décimal 466.
 
 En pratique, l'hexadécimal est surtout utilisé pour sa capacité à représenter la valeur de n'importe quel octet sur 2 chiffres ("chiffres" étant à prendre au sens large = chiffres ou lettres !).
 
-### Exercice
+!!! example "Exercice"
 
-1. Donner la valeur des octets `FF`, `3A`, `B2`.
-2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
-3. Quelle est la couleur html du blanc ?
+    === "Énoncé"
+        1. Donner la valeur des octets `FF`, `3A`, `B2`.
+        2. Expliquer pourquoi la couleur RGB (138,255,51) a pour code html `#8AFF33`.
+        3. Quelle est la couleur html du blanc ?
 
-<details>
-  <summary>Correction</summary>
+    === "Correction"
+        
+        1. FF=255 ; 3A=58 ; B2=178
 
-1. FF=255 ; 3A=58 ; B2=178
+        2. 138 a pour code hexa 8A, 255 a pour code hexa 255, 51 a pour code hexa 33
 
-2. 138 a pour code hexa 8A, 255 a pour code hexa 255, 51 a pour code hexa 33
-
-3. #FFFFFF
-
-</details>
+        3. `#FFFFFF`
