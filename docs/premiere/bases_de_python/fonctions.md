@@ -156,6 +156,8 @@ Nous devons documenter la fonction pour expliquer à quoi elle sert.
 
     C'est une bonne pratique d'indiquer le type de variable directement dans la fonction.
 
+    Pour en savoir plus, vous pouvez lire l'article: [https://infocornouaille.github.io/nsi-cornouaille/ressources/types/](https://infocornouaille.github.io/nsi-cornouaille/ressources/types/)
+
 !!! example "Exemple"
 
     ```python
