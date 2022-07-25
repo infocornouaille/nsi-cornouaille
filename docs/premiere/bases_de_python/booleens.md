@@ -29,12 +29,12 @@ Les opérateurs de comparaison comparent deux valeurs et évaluent jusqu'à une 
 
 !!! tip "Opérateurs de comparaison"
 
-    - `==`	Égal à
-    - `!=`	Pas égal à (différent de)
-    - `<`	Strictement inférieur à
-    - `>`	Strictement supérieur à
-    - `<=`	Inférieur ou égal à
-    - `>=`	Supérieur ou égal à
+    - `==` Égal à
+    - `!=` Pas égal à (différent de)
+    - `<` Strictement inférieur à
+    - `>` Strictement supérieur à
+    - `<=` Inférieur ou égal à
+    - `>=` Supérieur ou égal à
 
     Ces opérateurs évaluent `True` ou `False` dépendent des valeurs que vous leur donnez.
 
@@ -105,7 +105,7 @@ Les opérateurs `and` et `or` prennent toujours deux valeurs booléennes (ou exp
 
 !!! tip "Opérateur `and`"
 
-    - L' opérateur `and` évalue une expression à `True` si les deux valeurs booléennes sont `True`; sinon, il est évalué à `False`. Entrez quelques expressions en utilisant anddans le shell interactif pour le voir en action.
+    - L' opérateur `and` évalue une expression à `True` si les deux valeurs booléennes sont `True`; sinon, il est évalué à `False`. Entrez quelques expressions en utilisant `and` dans le shell interactif pour le voir en action.
 
 !!! exemple "Exemples fondamentaux avec `and`"
 
@@ -180,4 +180,11 @@ Vous pouvez également utiliser plusieurs opérateurs booléens dans une express
 True
 ```
 
-Les opérateurs booléens ont un ordre d'opérations tout comme les opérateurs mathématiques. Après l'évaluation de tous les opérateurs mathématiques et de comparaison, Python évalue `not` d'abord puis `and`, puis `or`.
+!!! tip "Ordre des opérations"
+
+    Les opérateurs booléens ont un ordre d'opérations tout comme les opérateurs mathématiques. 
+    
+    1. Evaluation de tous les opérateurs mathématiques et de comparaison
+    2. `not` 
+    3. `and`
+    4. `or`.
