@@ -72,7 +72,7 @@ Dans l'exemple précédent, `2 + 2` est évalué jusqu'à une seule valeur, 4. U
     16.0
     ```
 
-## Les erreurs !
+## Les erreurs
 
 Les programmes se bloquent s'ils contiennent du code que l'ordinateur ne peut pas comprendre, ce qui fera en sorte que Python affiche un message d'erreur. Cependant, un message d'erreur ne cassera pas votre ordinateur, alors n'ayez pas peur de faire des erreurs. Un _plantage_ signifie simplement que le programme a cessé de fonctionner de manière inattendue.
 
@@ -134,9 +134,13 @@ Il existe une multitude de types de données en Python.
 
     Exemples: "Bonjour", "23", 'Le ciel est bleu', ...
 
+    Une chapitre sera consacrée en détail aux chaînes de caractères.
+
 !!! tip "bool: les booléens"
 
     `bool`: de l'anglais *boolean value* (valeur booléenne), correspond au résultat d'un test. Une variable de ce type prend deux valeurs: `True`(vrai) ou `False`(faux).
+
+    Voir: [Les booléens](https://infocornouaille.github.io/nsi-cornouaille/premiere/bases_de_python/booleens/)
 
 ## Concaténation et réplication de chaînes
 
