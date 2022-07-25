@@ -1,11 +1,11 @@
 ---
-description: Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou *type hints*) optionnelles. Voici un tutoriel rapide sur les annotations de type Python
+description: Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou type hints) optionnelles. Voici un tutoriel rapide sur les annotations de type Python
 ---
 # Introduction aux Types Python
 
 Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou *type hints*) optionnelles.
 
-Ces annotations de type constituent une syntaxe spéciale qui permet de déclarer le <abbr title="par exemple : str, int, float, bool">type</abbr> d'une variable.
+Ces annotations de type constituent une syntaxe spéciale qui permet de déclarer le type d'une variable.
 
 En déclarant les types de vos variables, cela permet aux différents outils comme les éditeurs de texte d'offrir un meilleur support.
 
