@@ -129,6 +129,51 @@ Python fournit plusieurs fonctions intégrées comme `print`, `input` et `len` ,
 
     Exemple: `calcul_de_la_moyenne()`
 
+## Bonnes pratiques pour les fonctions
+
+Reprenons l'exemple:
+
+```python
+    def double(x):
+        return 2*x
+```
+
+Nous devons documenter la fonction pour expliquer à quoi elle sert.
+
+!!! tip "La docstring"
+
+    Les docstrings sont des chaines de documentation qui doivent être placées juste en dessous des  définitions de fonction ou de classe, ou bien tout en haut d'un module.
+
+!!! example "Exemple"
+
+    ```python
+    def double(x):
+        """Fonction qui renvoie le double du nombre x"""
+        return 2*x
+    ```
+
+!!! tip "Le typage des variables"
+
+    C'est une bonne pratique d'indiquer le type de variable directement dans la fonction.
+
+!!! example "Exemple"
+
+    ```python
+    def double(x: int):
+        """Fonction qui renvoie le double du nombre x"""
+        return 2*x
+    ```
+
+    Ici, on indique que la variable `x`doit être de type `int`, c'est à dire un entier.
+
+    On peut même indiquer le type de la variable retour:
+
+    ```python
+    def double(x: int) -> int:
+        """Fonction qui renvoie le double du nombre x"""
+        return 2*x
+    ```
+
 ## Portée locale et globale des variables
 
 Les paramètres et les variables assignés dans une fonction appelée sont censés exister dans la **portée locale** de cette fonction .
@@ -204,10 +249,10 @@ Lorsqu'on exécute ce srcipt, cela donne:
 
 Lorsque le programme démarre:
 
-1.  la fonction `spam()` est appelée et une portée locale est créée. La variable locale `eggs` vaut 99.
-2.  Ensuite, la fonction `bacon()` est appelée, et une seconde portée locale est créée. Plusieurs étendues locales peuvent exister en même temps. Dans cette nouvelle portée locale, la variable locale `ham` est définie sur 101, et une variable locale `eggs`— qui est différente de celle de la portée locale de`spam()` — est également créée et définie sur 0.
+1. la fonction `spam()` est appelée et une portée locale est créée. La variable locale `eggs` vaut 99.
+2. Ensuite, la fonction `bacon()` est appelée, et une seconde portée locale est créée. Plusieurs étendues locales peuvent exister en même temps. Dans cette nouvelle portée locale, la variable locale `ham` est définie sur 101, et une variable locale `eggs`— qui est différente de celle de la portée locale de`spam()` — est également créée et définie sur 0.
 
-3.  Lors du retour de `bacon()`, la portée locale de cet appel est détruite. L'exécution du programme se poursuit dans la fonction `spam()` pour afficher la valeur de `eggs`, et puisque la portée locale pour l'appel à `spam()` existe toujours ici, la variable `eggs` est définie sur 99. C'est ce que le programme affiche.
+3. Lors du retour de `bacon()`, la portée locale de cet appel est détruite. L'exécution du programme se poursuit dans la fonction `spam()` pour afficher la valeur de `eggs`, et puisque la portée locale pour l'appel à `spam()` existe toujours ici, la variable `eggs` est définie sur 99. C'est ce que le programme affiche.
 
 Le résultat est que les variables locales d'une fonction sont complètement séparées des variables locales d'une autre fonction.
 
