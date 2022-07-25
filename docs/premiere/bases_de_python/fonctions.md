@@ -180,9 +180,9 @@ Nous devons documenter la fonction pour expliquer à quoi elle sert.
 
 Les paramètres et les variables assignés dans une fonction appelée sont censés exister dans la **portée locale** de cette fonction .
 
-Les variables affectées en dehors de toutes les fonctions sont censées exister dans la **portée globale** . U
+Les variables affectées en dehors de toutes les fonctions sont censées exister dans la **portée globale** .
 
-ne variable qui existe dans une portée locale est appelée une variable locale , tandis qu'une variable qui existe dans la portée globale est appelée une variable globale .
+Une variable qui existe dans une portée locale est appelée une variable locale , tandis qu'une variable qui existe dans la portée globale est appelée une variable globale .
 
 Une variable doit être l'une ou l'autre ; elle ne peut pas être à la fois locale et globale.
 
