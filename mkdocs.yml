@@ -71,23 +71,7 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   
-extra:
-  analytics:
-    provider: google
-    property: G-NW109M0CP2
-    feedback:
-      title: Cette page vous a été utile?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: Cette page a été utile
-          data: 1
-          note: >-
-            Merci pour votre commentaire !
-        - icon: material/emoticon-sad-outline
-          name: Cette page pourrait être améliorée
-          data: 0
-          note: >- 
-            Merci pour vos commentaires! Nous ferons de notre mieux pour améliorer cette page !
+
            
   blog:
     dir: blog
@@ -95,13 +79,6 @@ extra:
     words_read_per_minute: 300
     list_length: 25
     extended_preview: true
-  consent:
-    title: Les cookies
-    description: >- 
-      Nous utilisons des cookies pour reconnaître vos visites répétées et vos préférences, ainsi que
-       pour mesurer l'efficacité de notre site et si les utilisateurs
-       trouvent ce qu'ils recherchent. Avec votre consentement, vous nous aidez à
-       améliorer notre site.
   
 
 
