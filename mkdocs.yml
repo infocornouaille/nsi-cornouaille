@@ -71,8 +71,7 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   
-
-           
+extra:           
   blog:
     dir: blog
     author: David Couronné
