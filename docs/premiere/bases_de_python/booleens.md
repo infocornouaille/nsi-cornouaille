@@ -182,9 +182,9 @@ True
 
 !!! tip "Ordre des opérations"
 
-    Les opérateurs booléens ont un ordre d'opérations tout comme les opérateurs mathématiques. 
-    
+    Les opérateurs booléens ont un ordre d'opérations tout comme les opérateurs mathématiques.
+
     1. Evaluation de tous les opérateurs mathématiques et de comparaison
-    2. `not` 
+    2. `not`
     3. `and`
     4. `or`.
