@@ -4,8 +4,6 @@ description: Le codage en binaire des nombres non entiers
 sidebar_position: 3
 ---
 
-
-
 Le principe est l'extension du système déjà rencontré pour les nombres entiers. La partie décimale (à droite de la virgule) correspondra aux puissances négatives de 2.
 
 | ... |   8   |   4   |   2   |   1   |   0.5    |   0.25   |  0.125   | ... |
