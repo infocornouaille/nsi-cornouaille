@@ -1,9 +1,10 @@
 ---
 description: Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou type hints) optionnelles. Voici un tutoriel rapide sur les annotations de type Python
 ---
+
 # Introduction aux Types Python
 
-Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou *type hints*) optionnelles.
+Python dans ses versions 3.6 et supérieures supporte des annotations de type (ou _type hints_) optionnelles.
 
 Ces annotations de type constituent une syntaxe spéciale qui permet de déclarer le type d'une variable.
 
@@ -36,9 +37,9 @@ John Doe
 
 La fonction :
 
-* Prend un `first_name` et un `last_name`.
-* Convertit la première lettre de chaque paramètre en majuscules grâce à `title()`.
-* Concatène les résultats avec un espace entre les deux.
+- Prend un `first_name` et un `last_name`.
+- Convertit la première lettre de chaque paramètre en majuscules grâce à `title()`.
+- Concatène les résultats avec un espace entre les deux.
 
 ```Python hl_lines="2"
 def get_full_name(first_name, last_name):
@@ -148,14 +149,14 @@ Vous venez de voir là où les types sont généralement déclarés : dans les p
 
 ### Types simples
 
-Vous pouvez déclarer tous les types  de Python, pas seulement `str`.
+Vous pouvez déclarer tous les types de Python, pas seulement `str`.
 
 Comme par exemple :
 
-* `int`
-* `float`
-* `bool`
-* `bytes`
+- `int`
+- `float`
+- `bool`
+- `bytes`
 
 ```Python hl_lines="1"
 def get_items(item_a: str, item_b: int, item_c: float, item_d: bool, item_e: bytes):
@@ -202,7 +203,7 @@ def process_items(items: List[str]):
 ```
 
 !!! tip "Astuce"
-    Ces types internes entre crochets sont appelés des "paramètres de type".
+Ces types internes entre crochets sont appelés des "paramètres de type".
 
     Ici, `str` est un paramètre de type passé à `List`.
 
@@ -232,8 +233,8 @@ def process_items(items_t: Tuple[int, int, str], items_s: Set[bytes]):
 
 Dans cet exemple :
 
-* La variable `items_t` est un `tuple` avec 3 éléments, un `int`, un deuxième `int`, et un `str`.
-* La variable `items_s` est un `set`, et chacun de ses éléments est de type `bytes`.
+- La variable `items_t` est un `tuple` avec 3 éléments, un `int`, un deuxième `int`, et un `str`.
+- La variable `items_s` est un `set`, et chacun de ses éléments est de type `bytes`.
 
 #### `Dict`
 
@@ -253,9 +254,9 @@ def process_items(prices: Dict[str, float]):
 
 Dans cet exemple :
 
-* La variable `prices` est de type `dict` :
-  * Les clés de ce dictionnaire sont de type `str`.
-  * Les valeurs de ce dictionnaire sont de type `float`.
+- La variable `prices` est de type `dict` :
+  - Les clés de ce dictionnaire sont de type `str`.
+  - Les valeurs de ce dictionnaire sont de type `float`.
 
 #### `Optional`
 
@@ -278,12 +279,12 @@ Utiliser `Optional[str]` plutôt que `str` permettra à l'éditeur de vous aider
 
 Les types qui peuvent contenir des paramètres de types entre crochets, comme :
 
-* `List`
-* `Tuple`
-* `Set`
-* `Dict`
-* `Optional`
-* ...et d'autres.
+- `List`
+- `Tuple`
+- `Set`
+- `Dict`
+- `Optional`
+- ...et d'autres.
 
 sont appelés des **types génériques** ou **Generics**.
 
