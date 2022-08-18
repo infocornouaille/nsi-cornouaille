@@ -117,7 +117,7 @@ En pratique, l'hexadécimal est surtout utilisé pour sa capacité à représent
         3. Quelle est la couleur html du blanc ?
 
     === "Correction"
-        
+
         1. FF=255 ; 3A=58 ; B2=178
 
         2. 138 a pour code hexa 8A, 255 a pour code hexa 255, 51 a pour code hexa 33
