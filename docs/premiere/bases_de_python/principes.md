@@ -45,11 +45,11 @@ Dans l'exemple précédent, `2 + 2` est évalué jusqu'à une seule valeur, 4. U
 
     - `+`: Addition: `2 + 3`
     - `-`: Soustraction: `2 - 3`
-    - `*`: Multiplication: `2*3`
-    - `/`: Division: `5/2`(qui donne 2.5)
+    - `*`: Multiplication: `2 * 3`
+    - `/`: Division: `5 / 2`(qui donne 2.5)
     - `**`: Exposant: `2**3`qui donne 8 ($2^3$)
-    - `%`: Modulo: `17%5` qui donne 2 (reste de la division euclidienne de 17 par 5)
-    - `//`: Quotient: `17//5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
+    - `%`: Modulo: `17 % 5` qui donne 2 (reste de la division euclidienne de 17 par 5)
+    - `//`: Quotient: `17 // 5`qui donne 3 (quotient de la division euclidienne de 17 par 5)
 
 !!! example "Exemples"
 
@@ -60,7 +60,7 @@ Dans l'exemple précédent, `2 + 2` est évalué jusqu'à une seule valeur, 4. U
     30
     >>> 48565878 * 578453
     28093077826734
-    >>> 2 ** 8
+    >>> 2**8
     256
     >>> 23 / 7
     3.2857142857142856
