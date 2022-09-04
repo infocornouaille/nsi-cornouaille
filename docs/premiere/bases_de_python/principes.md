@@ -17,6 +17,8 @@ Vous pouvez utiliser un shell interactif en ligne, par exemple le bac à sable P
 
 Lien direct: [basthon](https://console.basthon.fr/)
 
+Nous pouvons aussi utiliser programmiz: [programmiz](https://www.programiz.com/python-programming/online-compiler/)
+
 Cet éditeur en ligne se compose d'un éditeur de script dans la partie et gauche et de la console (shell interactif) dans la partie droite.
 
 Essayez:
