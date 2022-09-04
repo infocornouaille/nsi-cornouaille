@@ -89,6 +89,7 @@ nav:
     - Les bases de Python:
       - Principes de base de Python: premiere/bases_de_python/principes.md
       - Stockage dans des variables: premiere/bases_de_python/variables.md
+      - Les chaînes: premiere/bases_de_python/string.md
       - Les booléens: premiere/bases_de_python/booleens.md
       - Les fonctions: premiere/bases_de_python/fonctions.md
       - Les structures conditionnelles: premiere/bases_de_python/ifelse.md
