@@ -51,7 +51,7 @@ _correction :_
 - partie entière : $20 = 10100_2$
 - partie décimale :
   - $0,875 \times 2 = \textbf{1},75$
-  - $0,75 \times 2 = \textbf{1},5 $
+  - $0,75 \times 2 = \textbf{1},5$
   - $0,5 \times 2  = \textbf{1}$
 
 Donc $20,875=10100,111_2$
@@ -65,7 +65,7 @@ _correction :_
 - partie entière : $0 = 0_2$
 - partie décimale :
   - $0,2 \times 2 = \textbf{0},4$
-  - $0,4 \times 2 = \textbf{0},8 $
+  - $0,4 \times 2 = \textbf{0},8$
   - $0,8 \times 2  = \textbf{1},6$
   - $0,6 \times 2  = \textbf{1},2$
   - $0,2 \times 2 = \textbf{0},4$
