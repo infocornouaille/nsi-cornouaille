@@ -188,3 +188,18 @@ True
     2. `not`
     3. `and`
     4. `or`.
+
+## Cas particulier: l'inclusion avec `in`
+
+!!! example "Exemples"
+
+    ```python
+    >>> "y" in "Python"
+    True
+    >>> "z" in "Python"
+    False
+    >>> "th" in "Python"
+    True
+    >>> "p" in "Python"
+    False
+    ```
