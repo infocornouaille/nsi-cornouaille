@@ -41,9 +41,6 @@ description: Cours sur les chaînes de caractères en Python
 
     Nous utiliseront de préférence les double quote `"` pour écrire les chaînes de caracères.
 
-
-
-
 ## Concaténation et réplication de chaînes
 
 La signification d'un opérateur peut changer en fonction des types de données des valeurs à côté de lui. Par exemple, `+`est l'opérateur d'addition lorsqu'il opère sur deux nombres entiers ou des valeurs à virgule flottante. Cependant, lorsqu'il est utilisé sur deux valeurs de chaîne, il joint les chaînes en tant qu'opérateur de concaténation de chaînes.
@@ -102,3 +99,74 @@ TypeError: can't multiply sequence by non-int of type 'float'
 ```
 
 Il est logique que Python ne comprenne pas ces expressions : vous ne pouvez pas multiplier deux mots et il est difficile de répliquer une chaîne arbitraire un nombre fractionnaire de fois.
+
+## Caractère spéciaux
+
+!!! tip "Le retour à la ligne `\n`"
+
+    Pour effectuer un retour à la ligne, il faut utiliser le caractère `\n`.
+
+    ```python
+    >>> print("Bonjour\ntout\nle monde !")
+    Bonjour
+    tout
+    le monde !
+    ```
+
+!!! tip "La tabulation `\t`"
+
+    Pour effectuer une tabulation il faut utiliser le caractère `t`.
+
+    ```python
+    >>> print("Bonjour\t tout\tle monde !")
+    Bonjour	 tout	le monde !
+    ```
+
+## Le formatage
+
+Le formatage des chaînes de caractères permet d'utiliser des variables ou des expressions.
+
+!!! example "Exemples:"
+
+    ```python
+    >>> age = 27
+    >>> print(f"Cette personne est agée de {age} ans.")
+    Cette personne est agée de 27 ans.
+    ```
+
+    ```python
+    >>> x = 3
+    >>> y = 4
+    >>> print(f"Si x={x} et y={y}, alors x+y={x+y}")
+    Si x=3 et y=4, alors x+y=7
+    ```
+
+## Accès à un caractère
+
+!!!tip "Accès à un caractère dans une chaîne de caractères"
+
+    Prenons l'exemple suivant:
+
+    ```python
+    >>> mot = "Python"
+    ```
+
+    Les caractères sont comptés à partir de l'indice 0.
+
+    Dans l'exemple, le premier caractère est `P`, c'est donc celui d'indice 0.
+
+    ```python
+    >>> mot[0]
+    'P'
+    ```
+
+    ```python
+    >>> mot[2]  # Caractère d'indice 2, donc le 3ième
+    't'
+    >>> mot[3]  # Caractère d'indice 3, donc le 4ième
+    'h'
+    >>> mot[7]  # Caractère d'indice 7, qui n'existe pas
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+    IndexError: string index out of range
+    ```
